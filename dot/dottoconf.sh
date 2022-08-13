@@ -14,4 +14,7 @@ cp -r dot/dot/nitrogen/ .config/
 cp -r dot/dot/ranger/ .config/
 sudo cp -r dot/dot/tlp.conf /etc/
 
-sudo pacman -S fish nautilus nitrogen rofi rofi-emoji unzip okular fcitx fcitx-hangul fcitx-qt5 kcm-fcitx fcitx-configtool adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts scrot 
+sudo pacman -S firefox alacritty neovim xclip fish nautilus nitrogen rofi rofi-emoji unzip okular fcitx fcitx-hangul fcitx-qt5 fcitx-configtool kcm-fcitx adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts scrot xorg-xinput brightnessctl ttf-joypixels fuse ttf-dejavu noto-fonts tlp acpi_call-lts 
+
+chsh -s (which fish)
+systemctl enable tlp.service
