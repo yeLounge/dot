@@ -11,9 +11,7 @@ cp -r dot/dot/i3/ .config/
 cp -r dot/dot/nvim/ .config/ 
 cp -r dot/dot/rofi/ .config/ 
 cp -r dot/dot/nitrogen/ .config/ 
-cp -r dot/dot/ranger/ .config/ 
-cp -r dot/dot/Desktop/ ~
+cp -r dot/dot/ranger/ .config/
+sudo cp -r dot/dot/tlp.conf /etc/
 
-
-sudo pacman -S fish nautilus nitrogen smplayer rofi rofi-emoji unzip okular fcitx fcitx-gtk2 fcitx-gtk3 fcitx-hangul fcitx-qt5 fcitx-table-extra fcitx-table-other kcm-fcitx adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts
-
+sudo pacman -S fish nautilus nitrogen rofi rofi-emoji unzip okular fcitx fcitx-hangul fcitx-qt5 kcm-fcitx fcitx-configtool adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts scrot 
