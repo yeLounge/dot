@@ -3,8 +3,11 @@ mkdir Dropbox/dot/dot
 cp -r Desktop Dropbox/dot/dot/
 cp conftodot.sh Dropbox/dot/dot/
 cp dottoconf.sh Dropbox/dot/dot/
+cp pkill.sh Dropbox/dot/dot/
+
 cp .xprofile Dropbox/dot/dot/
 cp .i3status.conf Dropbox/dot/dot/
+
 cp -r .config/picom/ Dropbox/dot/dot/
 cp -r .config/alacritty/ Dropbox/dot/dot/
 cp -r .config/albert/ Dropbox/dot/dot/

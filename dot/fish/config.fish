@@ -16,4 +16,6 @@ alias 'v.c'='v .config/'
 alias 'v.d'='v /mnt/data/Downloads/'
 alias 'df'='df -h --exclude=squashfs'
 alias 'mp'='makepkg -si'
+alias 'rg'='ranger'
+alias 'vdot'='cd Dropbox/dot/dot'
 end

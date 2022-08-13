@@ -162,15 +162,17 @@ exec_always --no-startup-id xinput set-prop 11 333 10
 
 # Open App
 bindsym $mod+F1 exec ~/Applications/./Obsidian-0.15.9.AppImage
-bindsym $mod+F3 exec nautilus ~/Documents
+bindsym $mod+F3 exec nautilus ~/Dropbox
 bindsym $mod+F2 exec firefox
 bindsym $mod+l exec rofi -show emoji
 bindsym $mod+F4 exec ./pkill.sh 
+bindsym $mod+u exec ./conftodot.sh
 
 # Workspace
 assign [class="obsidian"] 1
 assign [class="Todoist"] 3
 assign [class="RemNote"] 4
+
 
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5% #increase sound volume
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@  -5% #decrease sound volume

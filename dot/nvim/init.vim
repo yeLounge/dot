@@ -9,6 +9,7 @@
 :set clipboard+=unnamedplus
 :set scrolloff=10
 
+map <F9> :nohl
 nnoremap <C-d> dd
 inoremap <C-d> <Esc>:delete<CR>==gi
 vnoremap L $
