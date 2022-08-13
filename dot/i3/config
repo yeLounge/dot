@@ -147,7 +147,7 @@ for_window [class=".*"] border pixel 0
 exec_always --no-startup-id picom --experimental-backends -b
 
 # Autostart
-exec_always --no-startup-id ~/Applications/./Obsidian-0.15.8_695c118461450e1cb251bae0c7cb38f1.AppImage
+exec_always --no-startup-id ~/Applications/./Obsidian-0.15.9.AppImage
 exec_always --no-startup-id ~/Applications/./Todoist-1.0.7.AppImage
 exec_always --no-startup-id fcitx
 exec_always --no-startup-id autotiling
@@ -155,30 +155,21 @@ exec_always --no-startup-id dropbox
 exec_always --no-startup-id xset r rate 250 30
 exec_always --no-startup-id albert
 # exec_always --no-startup-id brightnessctl set 2000
-exec_always --no-startup-id xinput set-prop 11 312 0
-exec_always --no-startup-id xinput set-prop 11 322 0.4
-exec_always --no-startup-id xinput set-prop 11 331 10 
-
+exec_always --no-startup-id xinput set-prop 11 312 1
+exec_always --no-startup-id xinput set-prop 11 314 0
+exec_always --no-startup-id xinput set-prop 11 324 0.4
+exec_always --no-startup-id xinput set-prop 11 333 10 
 
 # Open App
-bindsym $mod+F1 exec  ~/Applications/./Obsidian-0.15.8_695c118461450e1cb251bae0c7cb38f1.AppImage
+bindsym $mod+F1 exec ~/Applications/./Obsidian-0.15.9.AppImage
 bindsym $mod+F3 exec nautilus ~/Documents
 bindsym $mod+F2 exec firefox
 bindsym $mod+l exec rofi -show emoji
 bindsym $mod+F4 exec ./pkill.sh 
 
-# Media player controls
-bindsym XF86AudioPlay exec playerctl play-pause
-bindsym XF86AudioPause exec playerctl play-pause
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
-
 # Workspace
 assign [class="obsidian"] 1
 assign [class="Todoist"] 3
-assign [class="smplayer"] 4
-assign [class="anki"] 4
-assign [class="Google-chrome"] 4
 assign [class="RemNote"] 4
 
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5% #increase sound volume
@@ -191,8 +182,6 @@ bindsym --release Print exec scrot 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~
 # OSX-like area selection screenshots
 bindsym --release Shift+Print exec scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/Pictures/screenshots && mv $f ~/Pictures/screenshots && xclip -selection clipboard -t image/png -i ~/Pictures/screenshots/`ls -1 -t ~/Pictures/screenshots | head -1`' # Area selection
 
-
-bindsym $mod+shift+u exec ./configtogit.sh
 
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +3%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 3%-
