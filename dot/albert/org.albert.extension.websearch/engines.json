@@ -1,0 +1,32 @@
+[
+    {
+        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{a32907c0-53f4-41a1-a630-a682c2bfba70}.png",
+        "name": "Google",
+        "trigger": "?",
+        "url": "https://www.google.com/search?q=%s"
+    },
+    {
+        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{2d8f8bdc-3a93-42c4-8337-3ef26366e8a4}.png",
+        "name": "Wikipedia",
+        "trigger": "\"",
+        "url": "https://en.wikipedia.org/wiki/%s"
+    },
+    {
+        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{60fd27ff-b586-431b-b166-920011bec5c4}.png",
+        "name": "Raindrop",
+        "trigger": "/",
+        "url": "https://app.raindrop.io/my/0/%s"
+    },
+    {
+        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{f605494b-f5f8-434b-b519-323c91b3b860}.png",
+        "name": "Papago",
+        "trigger": "=",
+        "url": "https://papago.naver.com/?sk=en&tk=ko&hn=0&st=%s"
+    },
+    {
+        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{ba7836f7-3457-449b-aa62-4748cf5d8182}.",
+        "name": "ND",
+        "trigger": " ",
+        "url": "https://en.dict.naver.com/#/search?query=%s"
+    }
+]
