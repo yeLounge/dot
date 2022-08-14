@@ -155,38 +155,25 @@ font:
 #draw_bold_text_with_bright_colors: false
 # Colors (Tomorrow Night Bright)
 colors:
-  # Default colors
   primary:
-    background: '0x1E1D2F'
-    foreground: '0xD9E0EE'
-
-  cursor:
-    text: '0x1E1D2F'
-    cursor: '0xF5E0DC'
-
-  # Normal colors
+    background: '#191c25'
+    foreground: '#b5b4c9'
   normal:
-    black: '0x6E6C7E'
-    red: '0xF28FAD'
-    green: '0xABE9B3'
-    yellow: '0xFAE3B0'
-    blue: '0x96CDFB'
-    magenta: '0xF5C2E7'
-    cyan: '0x89DCEB'
-    white: '0xD9E0EE'
-
-  # Bright colors
+    black: '#2e313d'
+    red: '#cf8164'
+    green: '#76a065'
+    yellow: '#ab924c'
+    blue: '#8296b0'
+    magenta: '#a18daf'
+    cyan: '#659ea2'
+    white: '#b5b4c9'
   bright:
-    black: '0x988BA2'
-    red: '0xF28FAD'
-    green: '0xABE9B3'
-    yellow: '0xFAE3B0'
-    blue: '0x96CDFB'
-    magenta: '0xF5C2E7'
-    cyan: '0x89DCEB'
-    white: '0xD9E0EE'
-
-  indexed_colors:
-    - { index: 16, color: '0xF8BD96' }
-    - { index: 17, color: '0xF5E0DC' }
-theme: Catppuccin
+    black: '#5b5f71'
+    red: '#fe9f7c'
+    green: '#92c47e'
+    yellow: '#d2b45f'
+    blue: '#a0b9d8'
+    magenta: '#c6aed7'
+    cyan: '#7dc2c7'
+    white: '#f0ecfe'
+theme: Substrata

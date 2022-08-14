@@ -3,7 +3,7 @@ if status is-interactive
 set fish_greeting
 
 alias v=nvim
-alias 'vv'='v .config/nvim/init.vim'
+alias 'vv'='v .config/nvim/lua/user/keymaps.lua'
 alias 'vfish'='v .config/fish/config.fish'
 alias 'vi3'='v .config/i3/config'
 alias 'vpicom'='v .config/picom/picom.conf'
@@ -18,4 +18,6 @@ alias 'df'='df -h --exclude=squashfs'
 alias 'mp'='makepkg -si'
 alias 'rg'='ranger'
 alias 'vdot'='cd Dropbox/dot/dot'
+alias 'vkitty'='v .config/kitty/kitty.conf'
+alias 'vt'='cd test/'
 end

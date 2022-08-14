@@ -1,32 +1,32 @@
 [
     {
-        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{a32907c0-53f4-41a1-a630-a682c2bfba70}.png",
+        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{79655317-4eaf-4b6d-9cbf-104149950a49}.",
+        "name": "YouTube",
+        "trigger": "yt ",
+        "url": "https://www.youtube.com/results?search_query=%s"
+    },
+    {
+        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{a0338aa8-d437-401f-af41-9600a4b8753d}.png",
         "name": "Google",
-        "trigger": "?",
+        "trigger": "gg ",
         "url": "https://www.google.com/search?q=%s"
     },
     {
-        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{2d8f8bdc-3a93-42c4-8337-3ef26366e8a4}.png",
+        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{973ab8b6-cfff-4b5b-ae4f-b3dc53b8af28}.png",
         "name": "Wikipedia",
-        "trigger": "\"",
+        "trigger": "wk ",
         "url": "https://en.wikipedia.org/wiki/%s"
     },
     {
-        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{60fd27ff-b586-431b-b166-920011bec5c4}.png",
+        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{bd66866b-e81c-40be-aa08-28237f681299}.png",
         "name": "Raindrop",
-        "trigger": "/",
+        "trigger": "rd ",
         "url": "https://app.raindrop.io/my/0/%s"
     },
     {
-        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{f605494b-f5f8-434b-b519-323c91b3b860}.png",
-        "name": "Papago",
-        "trigger": "=",
-        "url": "https://papago.naver.com/?sk=en&tk=ko&hn=0&st=%s"
-    },
-    {
-        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{ba7836f7-3457-449b-aa62-4748cf5d8182}.",
-        "name": "ND",
-        "trigger": " ",
-        "url": "https://en.dict.naver.com/#/search?query=%s"
+        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{cad62526-5d9e-4fbe-880c-5b94dab95220}.",
+        "name": "GR",
+        "trigger": "gr ",
+        "url": "https://www.goodreads.com/search?q=%s&qid=MtcXJOPQGw"
     }
 ]

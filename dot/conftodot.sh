@@ -1,9 +1,11 @@
 rm -rf Dropbox/dot/dot
 mkdir Dropbox/dot/dot
+
 cp -r Desktop Dropbox/dot/dot/
 cp conftodot.sh Dropbox/dot/dot/
 cp dottoconf.sh Dropbox/dot/dot/
 cp pkill.sh Dropbox/dot/dot/
+cp obtosh.sh Dropbox/dot/dot/
 
 cp .xprofile Dropbox/dot/dot/
 cp .i3status.conf Dropbox/dot/dot/
@@ -19,3 +21,4 @@ cp -r .config/rofi/ Dropbox/dot/dot/
 cp -r .config/nitrogen/ Dropbox/dot/dot/
 cp -r .config/ranger/ Dropbox/dot/dot/
 cp -r /etc/tlp.conf Dropbox/dot/dot/
+
