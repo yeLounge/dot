@@ -49,6 +49,8 @@ keymap("v", "<S-Tab>", "<gv", opts)
 keymap("v", "<Tab>", ">gv", opts)
 keymap("n", "<S-Tab>", "<<", opts)
 keymap("n", "<Tab>", ">>", opts)
+keymap("i", "<S-Tab>", "<Esc><<a", opts)
+keymap("i", "<Tab>", "<Esc>>>a", opts)
 
 -- Move text up and down
 keymap("v", "<A-j>", ":m .+1<CR>==", opts)
@@ -72,4 +74,5 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 keymap("n", "K", "viw", opts)
 keymap("v", "L", "$", opts)
 keymap("v", "H", "^", opts)
+keymap("", "<F9>", ":nohl<CR>", opts)
 
