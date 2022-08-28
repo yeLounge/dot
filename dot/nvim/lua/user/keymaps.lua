@@ -21,8 +21,8 @@ vim.g.maplocalleader = " "
 -- Normal --
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
-keymap("n", "<C-j>", "<C-w>j", opts)
-keymap("n", "<C-k>", "<C-w>k", opts)
+--keymap("n", "<C-j>", "<C-w>j", opts)
+--keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
 -- Resize with arrows
@@ -32,8 +32,8 @@ keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
 -- Navigate buffers
-keymap("n", "<S-l>", ":bnext<CR>", opts)
-keymap("n", "<S-h>", ":bprevious<CR>", opts)
+keymap("n", "<A-l>", ":bnext<CR>", opts)
+keymap("n", "<A-h>", ":bprevious<CR>", opts)
 
 -- Move text up and down
 keymap("n", "<A-k>", ":m .-2<CR>==", opts)
@@ -71,8 +71,15 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
 
 -- Custom --
-keymap("n", "K", "viw", opts)
+keymap("", "<F9>", ":nohl<CR>", opts)
 keymap("v", "L", "$", opts)
 keymap("v", "H", "^", opts)
-keymap("", "<F9>", ":nohl<CR>", opts)
+keymap("n", "gj", "j", opts)
+keymap("n", "gk", "k", opts)
+keymap("n", "j", "gj", opts)
+keymap("n", "k", "gk", opts)
+keymap("n", "H", "^", opts)
+keymap("n", "L", "$", opts)
+keymap("", "<C-k>", "k", opts)
+keymap("", "<C-j>", "j", opts)
 

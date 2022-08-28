@@ -57,12 +57,11 @@ bindsym $mod+q kill
 # bindsym $mod+p exec --no-startup-id albert
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
-bindsym $mod+j focus left
-bindsym $mod+k focus right
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+h focus left
+bindsym $mod+l focus right
+bindsym $mod+space focus right
 
 
 
@@ -105,10 +104,10 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 mode "resize" {
 
         # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 5 px or 5 ppt
-        bindsym Down resize grow height 5 px or 5 ppt
-        bindsym Up resize shrink height 5 px or 5 ppt
-        bindsym Right resize grow width 5 px or 5 ppt
+        bindsym Right resize shrink width 5 px or 5 ppt
+        bindsym Up resize grow height 5 px or 5 ppt
+        bindsym Down resize shrink height 5 px or 5 ppt
+        bindsym Left resize grow width 5 px or 5 ppt
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
@@ -173,6 +172,15 @@ exec_always --no-startup-id xinput set-prop 11 312 1
 exec_always --no-startup-id xinput set-prop 11 314 0
 exec_always --no-startup-id xinput set-prop 11 324 0.4
 exec_always --no-startup-id xinput set-prop 11 333 10 
+exec_always --no-startup-id xinput set-prop 15 304 1
+exec_always --no-startup-id xinput set-prop 15 317 0
+exec_always --no-startup-id xinput set-prop 15 327 0.4
+exec_always --no-startup-id xinput set-prop 15 334 10 
+exec_always --no-startup-id xinput set-prop 14 312 1
+exec_always --no-startup-id xinput set-prop 14 314 0
+exec_always --no-startup-id xinput set-prop 14 324 0.4
+exec_always --no-startup-id xinput set-prop 14 333 10 
+# exec_always --no-startup-id setxkbmap -option caps:swapescape
 
 # Workspace
 assign [class="obsidian"] 1
@@ -184,8 +192,12 @@ bindsym $mod+F1 exec ~/Applications/./Obsidian-0.15.9.AppImage
 bindsym $mod+F3 exec nautilus ~/Dropbox
 bindsym $mod+F2 exec firefox 
 bindsym $mod+F4 exec ./pkill.sh 
-bindsym $mod+l exec rofi -show emoji
+bindsym $mod+F5 exec rofi -show emoji
 bindsym $mod+o exec okular
 bindsym $mod+u exec ./obtosh.sh
 bindsym $mod+Shift+u exec ./conftodot.sh
+#bindsym $mod+Home exec ./esc.sh
+bindsym $mod+/ exec xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'
 
+bindsym $mod+1 exec ./hhkb.sh
+bindsym $mod+2 exec ./hhkb2.sh

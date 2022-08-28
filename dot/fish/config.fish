@@ -20,4 +20,5 @@ alias 'rg'='ranger'
 alias 'vdot'='cd Dropbox/dot/dot'
 alias 'vkitty'='v .config/kitty/kitty.conf'
 alias 'vt'='cd test/'
+alias 'key=bash key.sh'
 end

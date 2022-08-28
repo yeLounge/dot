@@ -1,1 +1,2 @@
 pkill dropbox
+pkill todoist

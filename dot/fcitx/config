@@ -52,7 +52,7 @@ IMSwitchHotkey=CTRL_SUPER
 # Reload configuration
 ReloadConfig=
 # Interval of Two Key Input
-TimeInterval=10
+TimeInterval=0
 # Switching Virtual Keyboard
 VKSwitchKey=
 # Switching Remind Mode
