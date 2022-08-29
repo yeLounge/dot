@@ -180,6 +180,10 @@ exec_always --no-startup-id xinput set-prop 14 312 1
 exec_always --no-startup-id xinput set-prop 14 314 0
 exec_always --no-startup-id xinput set-prop 14 324 0.4
 exec_always --no-startup-id xinput set-prop 14 333 10 
+exec_always --no-startup-id xinput set-prop 11 313 1
+exec_always --no-startup-id xinput set-prop 11 315 0
+exec_always --no-startup-id xinput set-prop 11 325 1
+exec_always --no-startup-id xinput set-prop 11 334 10 
 # exec_always --no-startup-id setxkbmap -option caps:swapescape
 
 # Workspace
@@ -201,3 +205,6 @@ bindsym $mod+/ exec xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { print
 
 bindsym $mod+1 exec ./hhkb.sh
 bindsym $mod+2 exec ./hhkb2.sh
+bindsym $mod+8 exec brightnessctl set 1500
+bindsym $mod+9 exec brightnessctl set 2500
+bindsym $mod+0 exec brightnessctl set 5000

@@ -1,3 +1,4 @@
+cp -r dot/dot/Desktop/ ~
 cp dot/dot/dottoconf.sh ~
 cp dot/dot/conftodot.sh ~
 cp dot/dot/pkill.sh ~
