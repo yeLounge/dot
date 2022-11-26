@@ -1,0 +1,83 @@
+[
+{
+	"border": "normal",
+		"floating": "auto_off",
+		"fullscreen_mode": 0,
+		"layout": "splith",
+		"marks": [],
+		"percent": null,
+		"type": "con",
+		"nodes": [
+		{
+			"border": "normal",
+			"floating": "auto_off",
+			"layout": "splith",
+			"marks": [],
+			"percent": 1,
+			"type": "con",
+			"nodes": [
+			{
+				"border": "pixel",
+				"current_border_width": 0,
+				"floating": "auto_off",
+				"geometry": {
+					"height": 1080,
+					"width": 1920,
+					"x": 0,
+					"y": 0
+				},
+				"marks": [],
+				"name": "6. Mark Twain, The Late Benjamin Franklin - Obsidian - Obsidian v1.0.3",
+				"percent": 0.6,
+				"swallows": [
+				{
+					"class": "^obsidian$"
+				}
+				],
+				"type": "con"
+			},
+			{
+				"border": "normal",
+				"floating": "auto_off",
+				"layout": "splitv",
+				"marks": [],
+				"percent": 0.4,
+				"type": "con",
+				"nodes": [
+				{
+					"border": "normal",
+					"floating": "auto_off",
+					"layout": "splitv",
+					"marks": [],
+					"percent": 1,
+					"type": "con",
+					"nodes": [
+					{
+						"border": "pixel",
+						"current_border_width": 0,
+						"floating": "auto_off",
+						"geometry": {
+							"height": 540,
+							"width": 1920,
+							"x": 0,
+							"y": 540
+						},
+						"marks": [],
+						"name": "Okular",
+						"percent": 1,
+						"swallows": [
+						{
+							"instance": "^okular$"
+						}
+						],
+						"type": "con"
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+}
+]

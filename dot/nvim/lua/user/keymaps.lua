@@ -82,4 +82,5 @@ keymap("n", "H", "^", opts)
 keymap("n", "L", "$", opts)
 keymap("", "<C-k>", "k", opts)
 keymap("", "<C-j>", "j", opts)
+keymap("", "K", "viw", opts)
 

@@ -1,2 +1,0 @@
-pkill dropbox
-pkill todoist

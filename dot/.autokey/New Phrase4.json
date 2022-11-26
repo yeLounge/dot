@@ -1,0 +1,29 @@
+{
+    "type": "phrase",
+    "description": "New Phrase",
+    "modes": [
+        3
+    ],
+    "usageCount": 0,
+    "prompt": false,
+    "omitTrigger": false,
+    "matchCase": false,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "abbreviations": [],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": "<right>"
+    },
+    "filter": {
+        "regex": "Navigator.firefox",
+        "isRecursive": false
+    },
+    "sendMode": "kb"
+}

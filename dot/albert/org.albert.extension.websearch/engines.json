@@ -1,32 +1,14 @@
 [
     {
-        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{79655317-4eaf-4b6d-9cbf-104149950a49}.",
-        "name": "YouTube",
-        "trigger": "yt ",
-        "url": "https://www.youtube.com/results?search_query=%s"
-    },
-    {
-        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{a0338aa8-d437-401f-af41-9600a4b8753d}.png",
+        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{fbee59ba-81f8-4d9a-83ed-d16420aa5e50}.",
         "name": "Google",
-        "trigger": "gg ",
-        "url": "https://www.google.com/search?q=%s"
+        "trigger": "  ",
+        "url": "https://www.google.com/search?client=firefox-b-d&q=%s"
     },
     {
-        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{973ab8b6-cfff-4b5b-ae4f-b3dc53b8af28}.png",
-        "name": "Wikipedia",
-        "trigger": "wk ",
-        "url": "https://en.wikipedia.org/wiki/%s"
-    },
-    {
-        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{bd66866b-e81c-40be-aa08-28237f681299}.png",
-        "name": "Raindrop",
-        "trigger": "rd ",
-        "url": "https://app.raindrop.io/my/0/%s"
-    },
-    {
-        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{cad62526-5d9e-4fbe-880c-5b94dab95220}.",
-        "name": "GR",
-        "trigger": "gr ",
-        "url": "https://www.goodreads.com/search?q=%s&qid=MtcXJOPQGw"
+        "iconPath": "/home/y0ung/.config/albert/org.albert.extension.websearch/{8388fade-69fc-4e5e-b98c-e521fc7b2dec}.",
+        "name": "yt",
+        "trigger": " ",
+        "url": "https://www.youtube.com/results?search_query=%s"
     }
 ]

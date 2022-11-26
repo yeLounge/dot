@@ -1,0 +1,1 @@
+<super><tab><tab><ctrl>+a<ctrl>+c 
