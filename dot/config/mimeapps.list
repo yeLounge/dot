@@ -1,0 +1,16 @@
+[Added Associations]
+application/pdf=org.kde.okular.desktop;
+application/x-subrip=nvim.desktop;
+text/markdown=nvim.desktop;
+text/plain=nvim.desktop;
+video/mp4=mpv.desktop;smplayer.desktop;
+video/x-matroska=firefox.desktop;mpv.desktop;smplayer.desktop;
+
+[Default Applications]
+application/pdf=org.kde.okular.desktop;
+application/x-subrip=nvim.desktop;
+text/markdown=nvim.desktop;
+text/plain=nvim.desktop;
+video/mkv=smplayer.desktop;
+video/mp4=smplayer.desktop;
+video/x-matroska=smplayer.desktop;

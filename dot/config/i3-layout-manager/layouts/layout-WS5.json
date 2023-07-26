@@ -1,0 +1,173 @@
+[
+{
+	"border": "normal",
+		"floating": "auto_off",
+		"fullscreen_mode": 0,
+		"layout": "splith",
+		"marks": [],
+		"percent": 0.2,
+		"type": "con",
+		"nodes": [
+		{
+			"border": "normal",
+			"floating": "auto_off",
+			"layout": "splitv",
+			"marks": [],
+			"percent": 0.483333333333333,
+			"type": "con",
+			"nodes": [
+			{
+				"border": "pixel",
+				"current_border_width": 0,
+				"floating": "auto_off",
+				"geometry": {
+					"height": 377,
+					"width": 335,
+					"x": 1026,
+					"y": 386
+				},
+				"marks": [],
+				"name": "Today: Todoist",
+				"percent": null,
+				"swallows": [
+				{
+					"class": "^Todoist$"
+				}
+				],
+				"type": "con"
+			}
+			]
+		},
+		{
+			"border": "normal",
+			"floating": "auto_off",
+			"layout": "splitv",
+			"marks": [],
+			"percent": 0.258333333333333,
+			"type": "con",
+			"nodes": [
+			{
+				"border": "pixel",
+				"current_border_width": 0,
+				"floating": "auto_off",
+				"geometry": {
+					"height": 758,
+					"width": 676,
+					"x": 0,
+					"y": 0
+				},
+				"marks": [],
+				"name": "Volume Control",
+				"percent": 0.7,
+				"swallows": [
+				{
+					"class": "^Pavucontrol$"
+				}
+				],
+				"type": "con"
+			},
+			{
+				"border": "normal",
+				"floating": "auto_off",
+				"layout": "splith",
+				"marks": [],
+				"percent": 0.3,
+				"type": "con",
+				"nodes": [
+				{
+					"border": "pixel",
+					"current_border_width": 0,
+					"floating": "auto_off",
+					"geometry": {
+						"height": 377,
+						"width": 676,
+						"x": 685,
+						"y": 386
+					},
+					"marks": [],
+					"name": "Bluetooth Devices",
+					"percent": 1,
+					"swallows": [
+					{
+						"class": "^Blueman-manager$"
+					}
+					],
+					"type": "con"
+				}
+				]
+			}
+			]
+		},
+		{
+			"border": "normal",
+			"floating": "auto_off",
+			"layout": "splitv",
+			"marks": [],
+			"percent": 0.258333333333333,
+			"type": "con",
+			"nodes": [
+			{
+				"border": "normal",
+				"floating": "auto_off",
+				"layout": "splith",
+				"marks": [],
+				"percent": 0.25,
+				"type": "con",
+				"nodes": [
+				{
+					"border": "pixel",
+					"current_border_width": 0,
+					"floating": "auto_off",
+					"geometry": {
+						"height": 758,
+						"width": 1356,
+						"x": 5,
+						"y": 20
+					},
+					"marks": [],
+					"name": "Rain.mp3 - VLC media player",
+					"percent": null,
+					"swallows": [
+					{
+						"class": "^vlc$"
+					}
+					],
+					"type": "con"
+				}
+				]
+			},
+			{
+				"border": "normal",
+				"floating": "auto_off",
+				"layout": "splitv",
+				"marks": [],
+				"percent": 0.75,
+				"type": "con",
+				"nodes": [
+				{
+					"border": "pixel",
+					"current_border_width": 0,
+					"floating": "auto_off",
+					"geometry": {
+						"height": 356,
+						"width": 335,
+						"x": 1026,
+						"y": 386
+					},
+					"marks": [],
+					"name": "foobar2000 v2.0",
+					"percent": null,
+					"swallows": [
+					{
+						"class": "^foobar2000.exe$"
+					}
+					],
+					"type": "con"
+				}
+				]
+			}
+			]
+		}
+		]
+}
+]

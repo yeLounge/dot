@@ -1,0 +1,73 @@
+[
+{
+	"border": "normal",
+		"floating": "auto_off",
+		"fullscreen_mode": 0,
+		"layout": "splith",
+		"marks": [],
+		"percent": 0.2,
+		"type": "con",
+		"nodes": [
+		{
+			"border": "normal",
+			"floating": "auto_off",
+			"layout": "splith",
+			"marks": [],
+			"percent": 0.6,
+			"type": "con",
+			"nodes": [
+			{
+				"border": "pixel",
+				"current_border_width": 0,
+				"floating": "auto_off",
+				"geometry": {
+					"height": 377,
+					"width": 1356,
+					"x": 5,
+					"y": 5
+				},
+				"marks": [],
+				"name": "27,101,523 New Images, Stock Photos & Vectors | Shutterstock — Mozilla Firefox",
+				"percent": 1,
+				"swallows": [
+				{
+					"class": "^firefox$"
+				}
+				],
+				"type": "con"
+			}
+			]
+		},
+		{
+			"border": "normal",
+			"floating": "auto_off",
+			"layout": "splitv",
+			"marks": [],
+			"percent": 0.4,
+			"type": "con",
+			"nodes": [
+			{
+				"border": "pixel",
+				"current_border_width": 0,
+				"floating": "auto_off",
+				"geometry": {
+					"height": 758,
+					"width": 1356,
+					"x": 5,
+					"y": 5
+				},
+				"marks": [],
+				"name": "Search result for 'new' Naver English-Korean Dictionary — Mozilla Firefox",
+				"percent": null,
+				"swallows": [
+				{
+					"class": "^firefox$"
+				}
+				],
+				"type": "con"
+			}
+			]
+		}
+		]
+}
+]

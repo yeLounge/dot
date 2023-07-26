@@ -1,0 +1,28 @@
+1690388449765	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1690388479997	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1690388480831	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1690388513155	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1690388514684	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1690389474685	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1690389474685	Sync.Service	DEBUG	User-Agent: Firefox/115.0.2 (Linux x86_64) FxSync/1.117.0.20230711154437.desktop
+1690389474685	Sync.Service	INFO	Starting sync at 2023-07-27 01:37:54 in browser session wuus8RhsUXgm
+1690389474685	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1690389474693	Sync.Status	INFO	Resetting Status.
+1690389474693	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1690389474694	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1690389474694	FirefoxAccounts	DEBUG	getOAuthToken enter
+1690389474696	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1690389474696	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1690389474696	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1690389598902	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1690389598902	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1690389598917	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1690389598919	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1690389599789	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1690389599790	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1690389600168	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1690389600169	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1690389603974	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/198465042/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1690389603975	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1690389603975	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1690389603980	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
