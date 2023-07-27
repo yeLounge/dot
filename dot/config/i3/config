@@ -97,7 +97,7 @@ exec_always --no-startup-id xinput set-prop "TPPS/2 IBM TrackPoint" "libinput Ac
 exec_always --no-startup-id ~/Script/day.sh
 exec_always --no-startup-id sh -c "autokey-gtk & sleep 1 && xdotool search --onlyvisible --classname Autokey windowunmap"
 exec_always --no-startup-id ~/Script/conftodot.sh
-# exec_always --no-startup-id ~/Script/git.sh
+exec_always --no-startup-id ~/Script/git.sh
 
 # Workspace
 assign [class="obsidian"] 1
@@ -142,6 +142,7 @@ bindsym $mod+m [class="foobar2000"] focus
 bindsym $mod+o [class="okular"] focus
 bindsym $mod+shift+m exec ~/Script/macro.sh
 bindsym $mod+shift+n exec ~/Script/macro3.sh
+# bindsym $mod+shift+g exec ~/Script/git.sh
 bindsym $mod+t exec ~/Script/4kv.sh
 bindsym $mod+Delete exec ~/Script/sm.sh
 bindsym $mod+w exec aseprite

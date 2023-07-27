@@ -1,5 +1,6 @@
 #!/bin/sh
-sleep 10
+paplay ~/Script/files/message.oga
+
 cd ~/Downloads/data/dot/
 git add .
 git commit -m "."

@@ -16,18 +16,30 @@ ShowSidebar=true
 768x1366 screen: Width=758
 LVDS-1=LVDS-1
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAQAAAAAAAADmAAAC9fwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgEAAAAAAAAC9QAAANwA///+AAAEXgAAAvUAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAQAAAAAAAADmAAAC9fwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgAAAAAAAAAC9QAAANwA///+AAAFSgAAAvUAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/pdf/book/animation/Animation Masterclasses.pdf
-File2[$e]=$HOME/Downloads/pdf/book/computer/game/Blood, Sweat, and Pixels.epub
-File3[$e]=$HOME/Downloads/pdf/book/Mathmetics/Precalculus.pdf
-File4[$e]=$HOME/Downloads/pdf/book/Computer Science/programming/Code.pdf
-Name1[$e]=Animation Masterclasses.pdf
-Name2[$e]=Blood, Sweat, and Pixels.epub
-Name3[$e]=Precalculus.pdf
-Name4[$e]=Code.pdf
+File1[$e]=$HOME/Downloads/pdf/book/Mathmetics/Precalculus.pdf
+File10[$e]=$HOME/Downloads/Michael Hampton - Figure Drawing_ Design and Invention (2009).pdf
+File2[$e]=$HOME/Downloads/pdf/book/Computer Science/programming/Code.pdf
+File3[$e]=$HOME/Downloads/(Morpho_ Anatomy for Artists) Michel Lauricella - Morpho_ Hands and Feet-Rocky Nook (2019).pdf
+File4[$e]=$HOME/Downloads/(Morpho_ Anatomy for Artists) Michel Lauricella - Morpho_ Skeleton and Bone Reference Points-Rocky Nook (2019).pdf
+File5[$e]=$HOME/Downloads/Michael Hampton - Figure Drawing_ Design and Invention-Michael Hampton (2009).pdf
+File6[$e]=$HOME/Downloads/Michel Lauricella - Morpho_ Clothing Folds and Creases_ Anatomy for Artists-Rocky Nook (2022).pdf
+File7[$e]=$HOME/Downloads/Michel Lauricella - Morpho_ Fat and Skin Folds_ Anatomy for Artists (Morpho_ Anatomy for Artists)-Rocky Nook (2019).pdf
+File8[$e]=$HOME/Downloads/Michel Lauricella - Morpho_ Simplified Forms_ Anatomy for Artists (Morpho_ Anatomy for Artists)-Rocky Nook (2019).pdf
+File9[$e]=$HOME/Downloads/Jenny Harder - Creative Character Design for Games and Animation-CRC Press (2023).pdf
+Name1[$e]=Precalculus.pdf
+Name10[$e]=Michael Hampton - Figure Drawing_ Design and Invention (2009).pdf
+Name2[$e]=Code.pdf
+Name3[$e]=(Morpho_ Anatomy for Artists) Michel Lauricella - Morpho_ Hands and Feet-Rocky Nook (2019).pdf
+Name4[$e]=(Morpho_ Anatomy for Artists) Michel Lauricella - Morpho_ Skeleton and Bone Reference Points-Rocky Nook (2019).pdf
+Name5[$e]=Michael Hampton - Figure Drawing_ Design and Invention-Michael Hampton (2009).pdf
+Name6[$e]=Michel Lauricella - Morpho_ Clothing Folds and Creases_ Anatomy for Artists-Rocky Nook (2022).pdf
+Name7[$e]=Michel Lauricella - Morpho_ Fat and Skin Folds_ Anatomy for Artists (Morpho_ Anatomy for Artists)-Rocky Nook (2019).pdf
+Name8[$e]=Michel Lauricella - Morpho_ Simplified Forms_ Anatomy for Artists (Morpho_ Anatomy for Artists)-Rocky Nook (2019).pdf
+Name9[$e]=Jenny Harder - Creative Character Design for Games and Animation-CRC Press (2023).pdf
 
 [Shortcut Schemes]
 Current Scheme=Default
