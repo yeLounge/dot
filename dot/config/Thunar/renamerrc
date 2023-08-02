@@ -1,6 +1,6 @@
 [Configuration]
 LastActiveMode=THUNAR_RENAMER_MODE_NAME
-LastActiveRenamer=ThunarSbrRemoveRenamer
+LastActiveRenamer=ThunarSbrReplaceRenamer
 
 [ThunarSbrInsertRenamer]
 Offset=3
@@ -8,21 +8,21 @@ Text=UberDanger WoW Classic -\
 Mode=THUNAR_SBR_INSERT_MODE_INSERT
 OffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
 
-[ThunarSbrReplaceRenamer]
-CaseSensitive=FALSE
-Replacement=
-Pattern=(2021)\ 
-Regexp=FALSE
-
 [ThunarSbrNumberRenamer]
 TextMode=THUNAR_SBR_TEXT_MODE_NTO
 Text=.\ 
-Mode=THUNAR_SBR_NUMBER_MODE_010203
+Mode=THUNAR_SBR_NUMBER_MODE_001002003
 Start=1
 
 [ThunarSbrRemoveRenamer]
-StartOffset=4
-EndOffset=8
+StartOffset=0
+EndOffset=17
 EndOffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
 StartOffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
+
+[ThunarSbrReplaceRenamer]
+CaseSensitive=FALSE
+Replacement=
+Pattern=\ - J. K. Rowling & Mary Grandpre
+Regexp=FALSE
 

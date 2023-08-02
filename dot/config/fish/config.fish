@@ -31,4 +31,7 @@ alias 'vk'='v ~/Downloads/data/obsidian/0/~food.md'
 alias 'knou'='v ~/Downloads/data/obsidian/1/KNOU/'
 alias 'ch'='sudo chown -R y0ung:y0ung *'
 alias 'tar'='tar -xvf'
+function voca
+    awk '/^---$/{content=""} {content = content $0 ORS} END{if (content) print content}' ~/Downloads/data/obsidian/0/~voca.md
+end
 end

@@ -110,6 +110,9 @@ assign [class="foobar2000"] 5
 assign [class="vlc"] 5
 assign [class="Anki"] 7
 assign [class="smplayer"] 8
+assign [class="deltarune"] 8
+assign [class="undertale"] 8
+assign [class="stardew"] 8
 
 # Open App
 bindsym $mod+Home exec ~/Script/day.sh
@@ -131,13 +134,12 @@ bindsym $mod+F3 exec ~/Script/file.sh
 bindsym $mod+F4 exec ~/Script/pkill.sh
 bindsym $mod+shift+F4 exec reboot
 bindsym $mod+F5 exec rofi -show emoji
-bindsym $mod+F8 exec ~/Script/ws1.sh
 bindsym $mod+F9 exec ~/Script/ws6.sh
 bindsym $mod+F10 exec ~/Script/ws5.sh
 bindsym $mod+n [class="vlc"] focus
 bindsym $mod+i [class="Todoist"] focus
 bindsym $mod+k [class="obsidian"] focus
-# bindsym $mod+j 
+bindsym $mod+j exec ~/Script/game.sh
 bindsym $mod+m [class="foobar2000"] focus
 bindsym $mod+o [class="okular"] focus
 bindsym $mod+shift+m exec ~/Script/macro.sh
@@ -146,6 +148,11 @@ bindsym $mod+shift+n exec ~/Script/macro3.sh
 bindsym $mod+t exec ~/Script/4kv.sh
 bindsym $mod+Delete exec ~/Script/sm.sh
 bindsym $mod+w exec aseprite
+bindsym $mod+F7 exec wine ~/Downloads/game/Deltarune/DELTARUNE.exe
+bindsym $mod+F8 exec ~/Applications/Undertale.desktop
+bindsym $mod+1 exec ~/Script/timer.sh
+bindsym $mod+2 exec ~/Script/timer2.sh
 bindsym --release XF86Tools exec ~/Script/voca.sh
 # bindsym $mod+j exec ~/Script/pdftable.sh
 bindsym --release XF86Launch5 exec ~/Script/voca2.sh
+

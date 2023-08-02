@@ -12,3 +12,9 @@ firefox -new-window "$url1" &
 sleep 1
 # Open Firefox 2 in a new window and wait for it to open
 firefox -new-window "$url2" &
+alacritty &
+
+if ! xdotool search --name "Obsidian" windowactivate >/dev/null; then
+  ~/Applications/Obsidian-*.AppImage &
+fi
+

@@ -21,8 +21,16 @@ fi
 # Remove unwanted characters from the copied text (including "—")
 cleaned_text=$(echo "$last_copied_text" | tr -d '.\\/?!\"\:,\;\—')
 
-# Replace the previous copied text with the cleaned text
-echo -n "$cleaned_text" | xclip -selection c
+# Check if the last copied text is the same as any word in voca.md
+if grep -qFx "$cleaned_text" ~/Downloads/data/obsidian/0/~voca.md; then
+  : # Do nothing and continue with the script
+else
+  # Append the cleaned text to voca.md
+  echo "$cleaned_text" >> ~/Downloads/data/obsidian/0/~voca.md
+
+  # Remove unwanted characters and trailing white spaces from voca.md
+  sed -i 's/[.\/?!"'\'':;]\s*$//g' ~/Downloads/data/obsidian/0/~voca.md
+fi
 
 i3-msg workspace 6
 sleep 0.1
@@ -38,7 +46,7 @@ sleep 0.1
 xdotool keyup --clearmodifiers "ctrl, alt, shift, super, l, return, a, v, c"
 sleep 0.1
 
-xdotool mousemove 202 125
+xdotool mousemove 449 123
 xdotool click 1
 sleep 0.1
 xdotool key --clearmodifiers "ctrl+a"
@@ -50,5 +58,15 @@ xdotool keyup --clearmodifiers "ctrl, alt, shift, super, l, return, a, v, c"
 
 paplay ~/Script/files/on.oga
 
-xdotool mousemove 44 308
+alacritty_window=$(xdotool search --onlyvisible --classname alacritty | head -1)
+xdotool windowactivate "$alacritty_window"
+sleep 0.1
+xdotool key --clearmodifiers "ctrl+l"
+sleep 0.1
+xdotool type "voca"
+xdotool key --clearmodifiers "Return"
+sleep 0.1
 
+xdotool mousemove 333 300
+xdotool key --clearmodifiers "super+l"
+xdotool key --clearmodifiers "super+l"

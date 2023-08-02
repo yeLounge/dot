@@ -5,7 +5,7 @@ shouldShowToolBarComingFromFullScreen=false
 
 [General]
 LockSidebar=true
-ShowSidebar=true
+ShowSidebar=false
 
 [MainWindow]
 1364x767 screen: Height=757
@@ -15,31 +15,30 @@ ShowSidebar=true
 768x1366 screen: Height=1356
 768x1366 screen: Width=758
 LVDS-1=LVDS-1
-MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAQAAAAAAAADmAAAC9fwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgAAAAAAAAAC9QAAANwA///+AAAFSgAAAvUAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAQAAAAAAAADmAAAC4vwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgAAAAATAAAC4v////8A///+AAAFSgAAAuIAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/pdf/book/Mathmetics/Precalculus.pdf
-File10[$e]=$HOME/Downloads/Michael Hampton - Figure Drawing_ Design and Invention (2009).pdf
-File2[$e]=$HOME/Downloads/pdf/book/Computer Science/programming/Code.pdf
-File3[$e]=$HOME/Downloads/(Morpho_ Anatomy for Artists) Michel Lauricella - Morpho_ Hands and Feet-Rocky Nook (2019).pdf
-File4[$e]=$HOME/Downloads/(Morpho_ Anatomy for Artists) Michel Lauricella - Morpho_ Skeleton and Bone Reference Points-Rocky Nook (2019).pdf
-File5[$e]=$HOME/Downloads/Michael Hampton - Figure Drawing_ Design and Invention-Michael Hampton (2009).pdf
-File6[$e]=$HOME/Downloads/Michel Lauricella - Morpho_ Clothing Folds and Creases_ Anatomy for Artists-Rocky Nook (2022).pdf
-File7[$e]=$HOME/Downloads/Michel Lauricella - Morpho_ Fat and Skin Folds_ Anatomy for Artists (Morpho_ Anatomy for Artists)-Rocky Nook (2019).pdf
-File8[$e]=$HOME/Downloads/Michel Lauricella - Morpho_ Simplified Forms_ Anatomy for Artists (Morpho_ Anatomy for Artists)-Rocky Nook (2019).pdf
-File9[$e]=$HOME/Downloads/Jenny Harder - Creative Character Design for Games and Animation-CRC Press (2023).pdf
-Name1[$e]=Precalculus.pdf
-Name10[$e]=Michael Hampton - Figure Drawing_ Design and Invention (2009).pdf
-Name2[$e]=Code.pdf
-Name3[$e]=(Morpho_ Anatomy for Artists) Michel Lauricella - Morpho_ Hands and Feet-Rocky Nook (2019).pdf
-Name4[$e]=(Morpho_ Anatomy for Artists) Michel Lauricella - Morpho_ Skeleton and Bone Reference Points-Rocky Nook (2019).pdf
-Name5[$e]=Michael Hampton - Figure Drawing_ Design and Invention-Michael Hampton (2009).pdf
-Name6[$e]=Michel Lauricella - Morpho_ Clothing Folds and Creases_ Anatomy for Artists-Rocky Nook (2022).pdf
-Name7[$e]=Michel Lauricella - Morpho_ Fat and Skin Folds_ Anatomy for Artists (Morpho_ Anatomy for Artists)-Rocky Nook (2019).pdf
-Name8[$e]=Michel Lauricella - Morpho_ Simplified Forms_ Anatomy for Artists (Morpho_ Anatomy for Artists)-Rocky Nook (2019).pdf
-Name9[$e]=Jenny Harder - Creative Character Design for Games and Animation-CRC Press (2023).pdf
+File1[$e]=$HOME/Downloads/Michel Lauricella - Morpho_ Simplified Forms_ Anatomy for Artists (Morpho_ Anatomy for Artists)-Rocky Nook (2019).pdf
+File10[$e]=$HOME/Downloads/zzzzzz/Naruto Manga Chapters 1-700 [English-CBR]/Part I/Volume 4/028.cbr
+File2[$e]=$HOME/Downloads/Jenny Harder - Creative Character Design for Games and Animation-CRC Press (2023).pdf
+File3[$e]=$HOME/Downloads/Michael Hampton - Figure Drawing_ Design and Invention (2009).pdf
+File4[$e]=$HOME/Downloads/방송통신대학교+2023+2학기+대학생길라잡이_내지_수정2.pdf
+File5[$e]=$HOME/Downloads/HP-half-blood-prince.epub
+File6[$e]=$HOME/Downloads/pdf/book/Fiction/Harry Potter/3. Harry Potter and the Prisoner of Azkaban.epub
+File7[$e]=$HOME/Downloads/J.K. Rowling/1 - Harry Potter and the Sorcerer's Stone/Harry Potter 1 - Harry Potter and the Sorcerer's Stone - J. K. Rowling & Mary Grandpre.epub
+File8[$e]=$HOME/Downloads/pdf/book/Fiction/Harry Potter/1. Harry Potter and the Sorcerer's Stone.epub
+File9[$e]=$HOME/Downloads/zzzzzz/Naruto Manga Chapters 1-700 [English-CBR]/Part I/Volume 1/001.cbr
+Name1[$e]=Michel Lauricella - Morpho_ Simplified Forms_ Anatomy for Artists (Morpho_ Anatomy for Artists)-Rocky Nook (2019).pdf
+Name10[$e]=028.cbr
+Name2[$e]=Jenny Harder - Creative Character Design for Games and Animation-CRC Press (2023).pdf
+Name3[$e]=Michael Hampton - Figure Drawing_ Design and Invention (2009).pdf
+Name4[$e]=방송통신대학교+2023+2학기+대학생길라잡이_내지_수정2.pdf
+Name5[$e]=HP-half-blood-prince.epub
+Name6[$e]=3. Harry Potter and the Prisoner of Azkaban.epub
+Name7[$e]=Harry Potter 1 - Harry Potter and the Sorcerer's Stone - J. K. Rowling & Mary Grandpre.epub
+Name8[$e]=1. Harry Potter and the Sorcerer's Stone.epub
+Name9[$e]=001.cbr
 
 [Shortcut Schemes]
 Current Scheme=Default
