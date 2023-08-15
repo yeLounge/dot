@@ -9,7 +9,7 @@ url2="https://en.dict.naver.com/#/main"
 
 # Open Firefox 1 in a new window and wait for it to open
 firefox -new-window "$url1" &
-sleep 1
+sleep 2
 # Open Firefox 2 in a new window and wait for it to open
 firefox -new-window "$url2" &
 alacritty &

@@ -1,0 +1,40 @@
+1692095505584	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1692098547840	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1692098547840	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1692098547861	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1692098547863	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692098548342	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1692098548342	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692098553457	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1692098553457	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1692098553460	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1692098553461	Sync.Service	DEBUG	User-Agent: Firefox/116.0 (Linux x86_64) FxSync/1.118.0.20230731163847.desktop
+1692098553461	Sync.Service	INFO	Starting sync at 2023-08-15 20:22:33 in browser session uvoylHp6yRG5
+1692098553462	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1692098553466	Sync.Status	INFO	Resetting Status.
+1692098553466	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1692098553467	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1692098553467	FirefoxAccounts	DEBUG	getOAuthToken enter
+1692098553467	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1692098553467	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1692098553468	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1692098553470	Sync.SyncAuthManager	INFO	Getting sync key
+1692098553471	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1692098553471	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1692098553471	FirefoxAccounts	DEBUG	getOAuthToken enter
+1692098553471	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1692098553471	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1692098553471	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1692098553471	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1692098553593	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2147500036 - NS_ERROR_ABORT
+1692098553593	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1692098553594	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1692098553594	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1692098553594	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1692098553615	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/198465042/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1692098553615	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1692098553616	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1692098553617	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1692098553621	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available

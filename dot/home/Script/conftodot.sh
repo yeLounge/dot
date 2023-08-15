@@ -1,7 +1,5 @@
 paplay ~/Script/files/complete.oga
 
-sudo rm -rf ~/.local/share/Trash/.
-
 rm -rf ~/Downloads/data/dot/dot/
 rm -rf ~/Downloads/data/dot/dot2/
 rm -rf ~/Pictures

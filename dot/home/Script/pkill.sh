@@ -17,7 +17,9 @@ pkill -10 unclutter &
 pkill -10 autotiling &
 pkill picom &
 i3-msg exec ~/Script/night.sh &
-i3-msg workspace 8
+pkill firefox &
+pkill firefox &
+pkill blueman-manager &
+pkill pavucontrol &
 sleep 1
-pkill firefox 
-pkill firefox 
+i3-msg workspace 8

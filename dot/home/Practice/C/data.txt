@@ -1,9 +1,0 @@
-# product 
-number | name | quantity | price | serveQuantity | kcal | protein | fat | carb
-01. 올리브유 500 10600 2 819 0 91 0 
-02. 리코타치즈 425 10650 30 147 6 11 6
-
-# menu
-number | name | selectedProduct
-01. 치즈샐러드 01 02
-

@@ -94,10 +94,13 @@ exec_always --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinp
 exec_always --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Accel Speed" 1
 exec_always --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Scrolling Pixel Distance" 10
 exec_always --no-startup-id xinput set-prop "TPPS/2 IBM TrackPoint" "libinput Accel Speed" 1
-exec_always --no-startup-id ~/Script/day.sh
 exec_always --no-startup-id sh -c "autokey-gtk & sleep 1 && xdotool search --onlyvisible --classname Autokey windowunmap"
+exec_always --no-startup-id pkill blueman-applet
+exec_always --no-startup-id ~/Script/day.sh
 exec_always --no-startup-id ~/Script/conftodot.sh
 exec_always --no-startup-id ~/Script/git.sh
+exec_always --no-startup-id ~/Script/boot.sh
+exec_always --no-startup-id dolphin ~/Downloads/video/
 
 # Workspace
 assign [class="obsidian"] 1
@@ -152,6 +155,10 @@ bindsym $mod+F7 exec wine ~/Downloads/game/Deltarune/DELTARUNE.exe
 bindsym $mod+F8 exec ~/Applications/Undertale.desktop
 bindsym $mod+1 exec ~/Script/timer.sh
 bindsym $mod+2 exec ~/Script/timer2.sh
+bindsym $mod+3 exec ~/Script/timer3.sh
+bindsym $mod+backslash exec ~/Script/delete.sh
+bindsym $mod+F12 exec ~/Script/blue.sh
+bindsym $mod+slash exec ~/Script/gpt.sh
 bindsym --release XF86Tools exec ~/Script/voca.sh
 # bindsym $mod+j exec ~/Script/pdftable.sh
 bindsym --release XF86Launch5 exec ~/Script/voca2.sh

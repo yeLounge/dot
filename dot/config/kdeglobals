@@ -8,7 +8,7 @@ TerminalApplication=alacritty
 ShowDeleteCommand=false
 
 [KShortcutsDialog Settings]
-Dialog Size=600,480
+Dialog Size=599,479
 
 [PreviewSettings]
 MaximumRemoteSize=0
