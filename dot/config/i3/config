@@ -1,0 +1,166 @@
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+set $mod Mod4
+font pango:monospace 8
+exec --no-startup-id dex --autostart --environment i3
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --no-startup-id nm-applet
+set $refresh_i3status killall -SIGUSR1 i3status
+floating_modifier $mod
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+Return exec ~/Script/term.sh
+bindsym $mod+shift+Return exec alacritty
+bindsym $mod+q kill
+bindsym F11 fullscreen toggle
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+bindsym $mod+a workspace number $ws1
+bindsym $mod+s workspace number $ws2
+bindsym $mod+d workspace number $ws3
+bindsym $mod+f workspace number $ws4
+bindsym $mod+g workspace number $ws5
+bindsym $mod+x workspace number $ws6
+bindsym $mod+c workspace number $ws7
+bindsym $mod+v workspace number $ws8
+bindsym $mod+Shift+a move container to workspace number $ws1
+bindsym $mod+Shift+s move container to workspace number $ws2
+bindsym $mod+Shift+d move container to workspace number $ws3
+bindsym $mod+Shift+f move container to workspace number $ws4
+bindsym $mod+Shift+g move container to workspace number $ws5
+bindsym $mod+Shift+x move container to workspace number $ws6
+bindsym $mod+Shift+c move container to workspace number $ws7
+bindsym $mod+Shift+v move container to workspace number $ws8
+# reload the configuration file
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+# exit i3 (logs you out of your X session)
+bindsym $mod+z mode "resize"
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        # same bindings, but for the arrow keys
+        bindsym Right resize shrink width 5 px or 5 ppt
+        bindsym Up resize grow height 5 px or 5 ppt
+        bindsym Down resize shrink height 5 px or 5 ppt
+        bindsym Left resize grow width 5 px or 5 ppt
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+z mode "default"
+}
+bar {
+        status_command i3status --config ~/.i3status.conf
+	i3bar_command i3bar --transparency #000000
+	position top
+	mode hide
+	font pango:SFMono Nerd font Mono 9 
+colors {
+		background #00000000
+		statusline #3bbac4
+		separator #00000000
+	}
+}
+exec nitrogen --restore
+gaps inner 5
+for_window [class=".*"] border pixel 0
+exec_always --no-startup-id picom --experimental-backends -b
+# audio
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@  -5% #decrease sound volume
+bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle # mute sound
+bindsym XF86AudioMicMute exec pactl set-sink-volume @DEFAULT_SINK@  100% #reset
+#brightness
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
+
+# Autostart
+exec_always --no-startup-id fcitx
+exec_always --no-startup-id picom 
+exec_always --no-startup-id autotiling
+exec_always --no-startup-id albert
+exec_always --no-startup-id unclutter
+exec_always --no-startup-id syncthing
+exec_always --no-startup-id xset r rate 250 15 
+exec_always --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Natural Scrolling Enabled" 1
+exec_always --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Disable While Typing Enabled" 0
+exec_always --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Accel Speed" 1
+exec_always --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Scrolling Pixel Distance" 10
+exec_always --no-startup-id xinput set-prop "TPPS/2 IBM TrackPoint" "libinput Accel Speed" 1
+exec_always --no-startup-id sh -c "autokey-gtk & sleep 1 && xdotool search --onlyvisible --classname Autokey windowunmap"
+exec_always --no-startup-id pkill blueman-applet
+exec_always --no-startup-id ~/Script/day.sh
+exec_always --no-startup-id ~/Script/conftodot.sh
+exec_always --no-startup-id ~/Script/git.sh
+exec_always --no-startup-id ~/Script/boot.sh
+exec_always --no-startup-id dolphin ~/Downloads/video/
+
+# Workspace
+assign [class="obsidian"] 1
+assign [class="alacritty"] 2
+assign [class="dolphin"] 2
+assign [class="okular"] 3
+assign [class="firefox"] 4
+assign [class="Todoist"] 5
+assign [class="foobar2000"] 5
+assign [class="vlc"] 5
+assign [class="Anki"] 7
+assign [class="smplayer"] 8
+assign [class="deltarune"] 8
+assign [class="undertale"] 8
+assign [class="stardew"] 8
+
+# Open App
+bindsym $mod+Home exec ~/Script/day.sh
+bindsym $mod+End exec ~/Script/night.sh
+bindsym $mod+shift+o exec ~/Script/okular.sh
+bindsym $mod+space exec ~/Script/focus.sh
+bindsym $mod+l focus right
+bindsym $mod+shift+l focus left 
+bindsym $mod+h focus down 
+bindsym $mod+shift+h focus up 
+bindsym $mod+Shift+p exec i3-layout-manager 
+bindsym --release Print exec ~/Script/scrot.sh
+bindsym --release Scroll_Lock exec ~/Script/scrot2.sh
+bindsym $mod+Right exec xrandr -o right
+bindsym $mod+Down exec xrandr -o normal 
+bindsym $mod+F1 exec ~/Script/ws1.sh
+bindsym $mod+F2 exec ~/Script/firefox.sh
+bindsym $mod+F3 exec ~/Script/file.sh
+bindsym $mod+F4 exec ~/Script/pkill.sh
+bindsym $mod+shift+F4 exec reboot
+bindsym $mod+F5 exec rofi -show emoji
+bindsym $mod+F9 exec ~/Script/ws6.sh
+bindsym $mod+F10 exec ~/Script/ws5.sh
+bindsym $mod+n [class="vlc"] focus
+bindsym $mod+i [class="Todoist"] focus
+bindsym $mod+k [class="obsidian"] focus
+bindsym $mod+j exec ~/Script/game.sh
+bindsym $mod+m [class="foobar2000"] focus
+bindsym $mod+o [class="okular"] focus
+bindsym $mod+shift+m exec ~/Script/macro.sh
+bindsym $mod+shift+n exec ~/Script/macro3.sh
+# bindsym $mod+shift+g exec ~/Script/git.sh
+bindsym $mod+t exec ~/Script/4kv.sh
+bindsym $mod+Delete exec ~/Script/sm.sh
+bindsym $mod+w exec aseprite
+bindsym $mod+F7 exec wine ~/Downloads/game/Deltarune/DELTARUNE.exe
+bindsym $mod+F8 exec ~/Applications/Undertale.desktop
+bindsym $mod+1 exec ~/Script/timer.sh
+bindsym $mod+2 exec ~/Script/timer2.sh
+bindsym $mod+3 exec ~/Script/timer3.sh
+bindsym $mod+backslash exec ~/Script/delete.sh
+bindsym $mod+F12 exec ~/Script/blue.sh
+bindsym $mod+F6 exec ~/Script/viz.sh
+bindsym $mod+slash exec ~/Script/gpt.sh
+bindsym --release XF86Tools exec ~/Script/voca.sh
+# bindsym $mod+j exec ~/Script/pdftable.sh
+bindsym --release XF86Launch5 exec ~/Script/voca2.sh
+

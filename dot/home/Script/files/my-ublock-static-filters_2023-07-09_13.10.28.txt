@@ -1,0 +1,115 @@
+en.dict.naver.com##._btn_top_click.btn_top
+en.dict.naver.com##.my_btn_search_detail.btn_search_detail
+en.dict.naver.com##.my_keyword_tit
+en.dict.naver.com##._off_auto_review_layer.list_word
+
+! 2023-06-29 https://en.dict.naver.com
+en.dict.naver.com##.Ngnb_inner
+en.dict.naver.com##.Ngnb
+en.dict.naver.com##.Nlnb
+en.dict.naver.com##.btn_search
+en.dict.naver.com##._btn_autocomplete.btn_autocomplete
+||ssl.pstatic.net/dicimg/gdic/style/202306271748/img/enko/h1_sub_dic_fl_dark.png$image
+en.dict.naver.com##.tab_scroll_inner
+en.dict.naver.com###content > .option_area
+en.dict.naver.com##.side_menu
+en.dict.naver.com###aside
+en.dict.naver.com##.my_global_pron_label.label_add_auto
+en.dict.naver.com##.section_content
+en.dict.naver.com##.multilang._multilang
+en.dict.naver.com###searchPage_entry > .section_title
+en.dict.naver.com##li.listen_item:nth-of-type(1)
+en.dict.naver.com##li.listen_item:nth-of-type(2)
+en.dict.naver.com##._btn_oxford.btn_oxford
+en.dict.naver.com###searchPage_entry > .has-saving-function.component_keyword > div.row > .source
+en.dict.naver.com##.is-opened.is-long.section_relation_search_word
+en.dict.naver.com###searchPage_entry > .section_more
+en.dict.naver.com###searchPage_open > .section_title
+en.dict.naver.com###searchPage_open > .has-saving-function.component_keyword > div.row > .source
+en.dict.naver.com##._user_info.user_info
+en.dict.naver.com###searchPage_open > .section_more
+en.dict.naver.com###searchPage_mean > .my_searchPage.myScrollNavQuick.section_title
+en.dict.naver.com###searchPage_mean > .has-saving-function.component_keyword > div.row > .source
+en.dict.naver.com###searchPage_mean > .section_more
+en.dict.naver.com###searchPage_example > .my_searchPage.myScrollNavQuick.section_title
+en.dict.naver.com##.is-audible.origin > .my_old_pron_area.unit_listen > ._double_play.ico_pron.tts.btn_listen
+en.dict.naver.com##.is-audible.origin > .my_old_pron_area.unit_listen > ._repeat_play.btn_repeat
+en.dict.naver.com##.has-saving-function.component_example > div.row > .source
+en.dict.naver.com###searchPage_example > .section_more
+en.dict.naver.com###searchPage_vlive > .section_title
+en.dict.naver.com##.section_vlive.section
+en.dict.naver.com###searchPage_thesaurus > .my_searchPage.myScrollNavQuick.section_title
+en.dict.naver.com##.row_group > div.row > .source
+en.dict.naver.com##.section_more_area
+en.dict.naver.com##.section_etc.section
+en.dict.naver.com##.footer_inner
+en.dict.naver.com##.auto_off_info
+en.dict.naver.com##.option
+en.dict.naver.com##.my_entry_condition.entry_condition
+en.dict.naver.com##.component_tab
+en.dict.naver.com##.cp_menu_list
+en.dict.naver.com##._setting_area.setting_area
+en.dict.naver.com##.is-opened._more_example.btn_toggle
+en.dict.naver.com##.is-expanded.example_translate._word_mean_ex.example > div.example_item > .my_origin.origin > .unit_listen > ._double_play.ico_pron.tts.btn_listen
+en.dict.naver.com##.is-expanded.example_translate._word_mean_ex.example > div.example_item > .my_origin.origin > .unit_listen > ._repeat_play.btn_repeat
+en.dict.naver.com##._unit_add_wordbook.unit_add_wordbook
+en.dict.naver.com##.my_origin.origin > .unit_listen > ._double_play.ico_pron.tts.btn_listen
+en.dict.naver.com##.my_origin.origin > .unit_listen > ._repeat_play.btn_repeat
+en.dict.naver.com##.btn_toggle_square
+en.dict.naver.com##.today_word_quiz.inner
+en.dict.naver.com##.enquiz_list
+en.dict.naver.com##._newAudioclip.section_audioclip_platform.section
+en.dict.naver.com##._popularLanguage.section_popular_language.section
+en.dict.naver.com##._subjectSearch.section_subject.section
+en.dict.naver.com##.resources_wrap
+en.dict.naver.com##.section_today_word.section
+en.dict.naver.com##._newQuiz.section_enquiz.section
+
+! 2023-06-29 https://www.shutterstock.com
+www.shutterstock.com##.mui-fo7868-root
+www.shutterstock.com##.mui-s5e9ka-root-root-sideHeader.MuiAppBar-positionRelative.MuiAppBar-colorPrimary.MuiAppBar-root.MuiPaper-elevation4.MuiPaper-elevation.MuiPaper-root
+www.shutterstock.com##.mui-s8pmnb-title.MuiTypography-h5.MuiTypography-root
+www.shutterstock.com##.mui-1b7z191-descriptionContainer
+www.shutterstock.com##.mui-1fzcb3u-filterPillSection-filterPillFirstSection
+www.shutterstock.com##.mui-io1l0n-filterPillContainer
+||www.shutterstock.com/image-photo/toronto-canada-january-29-2020-260nw-1631106397.jpg$image
+||www.shutterstock.com/image-photo/toronto-canada-january-29-2020-260nw-1631106397.jpg$image
+||www.shutterstock.com/image-photo/toronto-canada-january-29-2020-260nw-1631106397.jpg$image
+www.shutterstock.com##.mui-zko7lh.MuiBox-root
+||www.shutterstock.com/image-photo/toronto-canada-cbc-news-headquarters-260nw-681936850.jpg$image
+www.shutterstock.com##.mui-12qttxn-utilityBar-utilityBar.utility-bar-global-styles
+www.shutterstock.com##.mui-1co8h1u-utilityBar-utilityBar.utility-bar-global-styles
+
+! 2023-06-29 https://en.dict.naver.com
+en.dict.naver.com##.section_suggestion.section
+
+! 2023-06-29 https://www.youtube.com
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
+www.youtube.com###guide-links-primary
+www.youtube.com###guide-links-secondary
+www.youtube.com###copyright
+www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
+www.youtube.com##.ytd-reel-shelf-renderer.style-scope > .yt-horizontal-list-renderer.style-scope
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-reel-shelf-renderer.style-scope
+
+! 2023-06-29 https://en.dict.naver.com
+en.dict.naver.com##.has-saving-function.component_keyword > div.row > ._papagoTranslationArea.translate_btns
+en.dict.naver.com##._papagoTranslationArea.translate_btns
+en.dict.naver.com##._user_info.user_profile
+en.dict.naver.com###searchPage_open > .has-saving-function.component_keyword > div.row > .thumb_wrap > .thumb
+
+! 2023-06-30 https://www.twitch.tv
+www.twitch.tv##.side-nav__scrollable_content.simplebar-content
+www.twitch.tv##.scrollable-area--suppress-scroll-x.scrollable-area.cLsElM.InjectLayout-sc-1i43xsx-0 > .simplebar-scroll-content
+www.twitch.tv##.scrollable-area--suppress-scroll-x.scrollable-area.cLsElM.InjectLayout-sc-1i43xsx-0
+www.twitch.tv##.side-nav--collapsed.side-nav.bbPHvU.Layout-sc-1xcs6mc-0 > .wZVfj.Layout-sc-1xcs6mc-0
+www.twitch.tv##.gHqJZO.Layout-sc-1xcs6mc-0 > .gCePyT.Layout-sc-1xcs6mc-0
+www.twitch.tv##.bsRjSc.Layout-sc-1xcs6mc-0
+
+! 2023-06-30 https://en.dict.naver.com
+en.dict.naver.com##li.listen_item:nth-of-type(3)
+
+! 2023-07-04 https://www.w3schools.com
+www.w3schools.com##.m12.l2.w3-col
+

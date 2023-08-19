@@ -1,0 +1,37 @@
+[$Version]
+update_info=okular.upd:annotation-toolbar,okular.upd:builtin-annotations
+
+[Core General]
+ObeyDRM=false
+
+[Core Presentation]
+SlidesLoop=true
+
+[Dlg Presentation]
+SlidesBackgroundColor=255,255,255
+SlidesTransition=NoTransitions
+
+[Document]
+RenderMode=InvertLumaSymmetric
+
+[General]
+DisplayDocumentNameOrPath=Path
+DisplayDocumentTitle=false
+ShellOpenFileInTabs=true
+ShowEmbeddedContentMessages=false
+ShowOSD=false
+
+[Nav Panel]
+SyncThumbnailsViewport=false
+
+[PageView]
+BackgroundColor=0,0,0
+MouseMode=TextSelect
+ScrollOverlap=30
+ShowScrollBars=false
+UseCustomBackgroundColor=true
+ViewColumns=2
+
+[Reviews]
+DrawingTools=
+QuickAnnotationTools=<tool type="rectangle" id="1"><engine type="PickPoint" color="#ffe5ff00" block="true"><annotation type="GeomSquare" innerColor="#e5ff00" color="#ffe5ff00" width="5"/></engine><shortcut>1</shortcut></tool>
