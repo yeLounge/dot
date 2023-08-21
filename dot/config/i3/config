@@ -99,6 +99,7 @@ exec_always --no-startup-id pkill blueman-applet
 exec_always --no-startup-id ~/Script/day.sh
 exec_always --no-startup-id ~/Script/conftodot.sh
 exec_always --no-startup-id ~/Script/git.sh
+exec_always --no-startup-id ~/Script/boot.sh
 
 # Workspace
 assign [class="obsidian"] 1
@@ -133,10 +134,9 @@ bindsym $mod+F1 exec ~/Script/ws1.sh
 bindsym $mod+F2 exec ~/Script/firefox.sh
 bindsym $mod+F3 exec ~/Script/file.sh
 bindsym $mod+F4 exec ~/Script/pkill.sh
-bindsym $mod+shift+F4 exec reboot
 bindsym $mod+F5 exec rofi -show emoji
+bindsym $mod+shift+F4 exec reboot
 bindsym $mod+F9 exec ~/Script/ws6.sh
-bindsym $mod+F10 exec ~/Script/ws5.sh
 bindsym $mod+n [class="vlc"] focus
 bindsym $mod+i [class="Todoist"] focus
 bindsym $mod+k [class="obsidian"] focus
