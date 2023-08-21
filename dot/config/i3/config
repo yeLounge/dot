@@ -157,7 +157,6 @@ bindsym $mod+2 exec ~/Script/timer2.sh
 bindsym $mod+3 exec ~/Script/timer3.sh
 bindsym $mod+backslash exec ~/Script/delete.sh
 bindsym $mod+F12 exec ~/Script/blue.sh
-bindsym $mod+F6 exec ~/Script/viz.sh
 bindsym $mod+slash exec ~/Script/gpt.sh
 bindsym --release XF86Tools exec ~/Script/voca.sh
 # bindsym $mod+j exec ~/Script/pdftable.sh
