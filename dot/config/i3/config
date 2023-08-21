@@ -100,6 +100,7 @@ exec_always --no-startup-id ~/Script/blue.sh
 exec_always --no-startup-id ~/Script/day.sh
 exec_always --no-startup-id ~/Script/conftodot.sh
 exec_always --no-startup-id ~/Script/git.sh
+exec_always --no-startup-id ~/Script/ws.sh
 
 # Workspace
 assign [class="obsidian"] 1
@@ -136,7 +137,7 @@ bindsym $mod+F3 exec ~/Script/file.sh
 bindsym $mod+F4 exec ~/Script/pkill.sh
 bindsym $mod+F5 exec rofi -show emoji
 bindsym $mod+shift+F4 exec reboot
-bindsym $mod+F9 exec ~/Script/ws6.sh
+bindsym $mod+F9 exec ~/Script/ws.sh
 bindsym $mod+n [class="vlc"] focus
 bindsym $mod+i [class="Todoist"] focus
 bindsym $mod+k [class="obsidian"] focus
