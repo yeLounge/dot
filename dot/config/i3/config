@@ -151,6 +151,7 @@ bindsym $mod+u exec ~/Script/conftodot.sh
 bindsym $mod+t exec ~/Script/4kv.sh
 bindsym $mod+Delete exec ~/Script/sm.sh
 bindsym $mod+w exec aseprite
+bindsym $mod+F6 exec ~/Script/viz.sh
 bindsym $mod+F7 exec wine ~/Downloads/_local/Deltarune/DELTARUNE.exe
 bindsym $mod+F8 exec ~/Applications/Undertale.desktop
 bindsym $mod+1 exec ~/Script/timer.sh
