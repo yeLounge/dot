@@ -29,6 +29,8 @@ alacritty &
 if ! xdotool search --name "Obsidian" windowactivate >/dev/null; then
   ~/Applications/Obsidian-*.AppImage &
 fi
+
+sleep 1
 i3-msg workspace 1
 i3-msg workspace 4
 i3-msg workspace 6
