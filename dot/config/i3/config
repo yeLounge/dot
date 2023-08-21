@@ -96,10 +96,10 @@ exec_always --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinp
 exec_always --no-startup-id xinput set-prop "TPPS/2 IBM TrackPoint" "libinput Accel Speed" 1
 exec_always --no-startup-id sh -c "autokey-gtk & sleep 1 && xdotool search --onlyvisible --classname Autokey windowunmap"
 exec_always --no-startup-id pkill blueman-applet
+exec_always --no-startup-id ~/Script/blue.sh
 exec_always --no-startup-id ~/Script/day.sh
 exec_always --no-startup-id ~/Script/conftodot.sh
 exec_always --no-startup-id ~/Script/git.sh
-exec_always --no-startup-id ~/Script/boot.sh
 
 # Workspace
 assign [class="obsidian"] 1
