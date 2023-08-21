@@ -245,7 +245,7 @@ user_pref("services.sync.deletePwdFxA", true);
 user_pref("services.sync.engine.prefs.modified", false);
 user_pref("services.sync.forms.lastSync", "1692599804.88");
 user_pref("services.sync.forms.syncID", "CPxT6g9wCF3c");
-user_pref("services.sync.globalScore", 3);
+user_pref("services.sync.globalScore", 6);
 user_pref("services.sync.lastPing", 1692521506);
 user_pref("services.sync.lastSync", "Mon Aug 21 2023 16:16:55 GMT+0900 (Korean Standard Time)");
 user_pref("services.sync.nextSync", 1692605815);
