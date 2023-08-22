@@ -1,0 +1,4 @@
+#!/bin/sh -e
+sudo mount /dev/mmcblk0 /mnt/files/
+sudo rm -rf ~/.local/share/Trash/*
+exit 0

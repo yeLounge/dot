@@ -45,6 +45,7 @@ cp -r ~/.config/dolphinrc ~/Downloads/data/dot/dot/config/
 cp -r ~/.config/mimeapps.list ~/Downloads/data/dot/dot/config/
 
 cp -r /etc/tlp.conf ~/Downloads/data/dot/dot/etc/
+cp -r /etc/rc.local ~/Downloads/data/dot/dot/etc/
 cp -r /etc/keyd/ ~/Downloads/data/dot/dot/etc/
 cp -r /etc/pacman.conf ~/Downloads/data/dot/dot/etc/
 cp -r /etc/lightdm/ ~/Downloads/data/dot/dot/etc/
