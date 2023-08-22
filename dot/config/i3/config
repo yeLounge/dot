@@ -100,7 +100,6 @@ exec_always --no-startup-id ~/Script/blueboot.sh
 exec_always --no-startup-id ~/Script/day.sh
 exec_always --no-startup-id ~/Script/conftodot.sh
 exec_always --no-startup-id ~/Script/git.sh
-exec_always --no-startup-id ~/Script/ws.sh
 
 # Workspace
 assign [class="obsidian"] 1

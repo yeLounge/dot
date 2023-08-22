@@ -40,7 +40,7 @@ vlc /home/y0ung/Downloads/audio/Rain.mp3 &
 foobar2000 &
 ~/Applications/Todoist-linux-x86_64-*.AppImage &
 pkill blueman-applet
-sleep 1
+sleep 2
 i3-msg workspace 1
 xdotool mousemove 762 316
 xdotool click 1
