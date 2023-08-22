@@ -151,12 +151,13 @@ bindsym $mod+t exec ~/Script/4kv.sh
 bindsym $mod+Delete exec ~/Script/sm.sh
 bindsym $mod+w exec aseprite
 bindsym $mod+F6 exec ~/Script/viz.sh
-bindsym $mod+F7 exec wine ~/Downloads/_local/Deltarune/DELTARUNE.exe
+bindsym $mod+F7 exec wine ~/Applications/Deltarune/DELTARUNE.exe
 bindsym $mod+F8 exec ~/Applications/Undertale.desktop
 bindsym $mod+1 exec ~/Script/timer.sh
 bindsym $mod+2 exec ~/Script/timer2.sh
 bindsym $mod+3 exec ~/Script/timer3.sh
 bindsym $mod+backslash exec ~/Script/delete.sh
+bindsym $mod+F10 exec ~/Script/ws5.sh
 bindsym $mod+F12 exec ~/Script/blue.sh
 bindsym $mod+slash exec ~/Script/gpt.sh
 bindsym --release XF86Tools exec ~/Script/voca.sh
