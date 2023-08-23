@@ -1,4 +1,3 @@
-#!/bin/bash
 pkill firefox
 sleep 1
 
