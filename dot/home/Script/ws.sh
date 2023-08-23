@@ -1,8 +1,6 @@
 pkill firefox &
-pkill -10 firefox &
 pkill alacritty &
-pkill -10 alacritty &
-sleep 0.1 
+sleep 1
 
 i3-msg workspace 4
 sleep 0.1 
@@ -10,8 +8,7 @@ i3-layout-manager ws4
 sleep 0.1 
 url3="https://chat.openai.com/c/9c2fe4f7-ae0a-4220-9bbf-1f5d17b3e9d8" 
 firefox "$url3"
-xdotool keyup --clearmodifiers "ctrl, alt, shift, super, l, return, a, v, c, p"
-sleep 1.5
+sleep 2
 
 i3-msg workspace 6
 sleep 0.1 
