@@ -130,13 +130,12 @@ bindsym --release Print exec ~/Script/scrot.sh
 bindsym --release Scroll_Lock exec ~/Script/scrot2.sh
 bindsym $mod+Right exec xrandr -o right
 bindsym $mod+Down exec xrandr -o normal 
-bindsym $mod+F1 exec ~/Script/ws1.sh
 bindsym $mod+F2 exec ~/Script/firefox.sh
 bindsym $mod+F3 exec ~/Script/file.sh
 bindsym $mod+F4 exec ~/Script/pkill.sh
 bindsym $mod+F5 exec rofi -show emoji
 bindsym $mod+shift+F4 exec reboot
-bindsym $mod+F9 exec ~/Script/ws.sh
+bindsym $mod+F1 exec ~/Script/ws.sh
 bindsym $mod+n [class="vlc"] focus
 bindsym $mod+i [class="Todoist"] focus
 bindsym $mod+k [class="obsidian"] focus
