@@ -1,7 +1,8 @@
 #!/bin/bash
+pkill firefox
+sleep 1
+
 i3-msg workspace 4
-xdotool key --clearmodifiers "super+q"
-xdotool key --clearmodifiers "super+q"
 i3-layout-manager ws4
 url3="https://chat.openai.com/c/9c2fe4f7-ae0a-4220-9bbf-1f5d17b3e9d8" 
 firefox -new-window "$url3"
@@ -9,16 +10,6 @@ xdotool keyup --clearmodifiers "ctrl, alt, shift, super, l, return, a, v, c, p"
 
 sleep 1.5
 i3-msg workspace 6
-xdotool key --clearmodifiers "super+q"
-sleep 0.1
-xdotool key --clearmodifiers "super+q"
-sleep 0.1
-xdotool key --clearmodifiers "super+q"
-sleep 0.1
-xdotool key --clearmodifiers "super+q"
-sleep 0.1
-xdotool key --clearmodifiers "super+q"
-sleep 1
 i3-layout-manager ws6
 url1="https://www.merriam-webster.com/dictionary/dictionary" 
 url2="https://en.dict.naver.com/#/main"
