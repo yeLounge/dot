@@ -284,7 +284,7 @@ user_pref("storage.vacuum.last.index", 2);
 user_pref("storage.vacuum.last.places.sqlite", 1690665140);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("toolkit.startup.last_success", 1692829349);
-user_pref("toolkit.startup.recent_crashes", 3);
+user_pref("toolkit.startup.recent_crashes", 5);
 user_pref("toolkit.telemetry.cachedClientID", "c0ffeec0-ffee-c0ff-eec0-ffeec0ffeec0");
 user_pref("toolkit.telemetry.pioneer-new-studies-available", true);
 user_pref("toolkit.telemetry.previousBuildID", "20230731163847");
