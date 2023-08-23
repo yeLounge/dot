@@ -1,3 +1,0 @@
-#!/bin/bash -e
-mount /dev/mmcblk0 /mnt/sdcard/
-exit 0
