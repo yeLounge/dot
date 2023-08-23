@@ -21,20 +21,17 @@ ShellOpenFileInTabs=true
 ShowEmbeddedContentMessages=false
 ShowOSD=false
 
-[Main View]
-ShowBottomBar=true
-
 [Nav Panel]
 SyncThumbnailsViewport=false
 
 [PageView]
 BackgroundColor=0,0,0
 MouseMode=TextSelect
-ScrollOverlap=30
+ScrollOverlap=50
 ShowScrollBars=false
 UseCustomBackgroundColor=true
-ViewColumns=2
+ViewColumns=1
 
 [Reviews]
 DrawingTools=
-QuickAnnotationTools=<tool type="rectangle" id="1"><engine type="PickPoint" color="#ffe5ff00" block="true"><annotation type="GeomSquare" innerColor="#e5ff00" color="#ffe5ff00" width="5"/></engine><shortcut>1</shortcut></tool>
+QuickAnnotationTools=<tool type="rectangle" id="1"><engine type="PickPoint" color="#ffe5ff00" block="true"><annotation width="5" type="GeomSquare" color="#ffe5ff00" innerColor="#e5ff00"/></engine><shortcut>1</shortcut></tool>

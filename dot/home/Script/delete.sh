@@ -17,8 +17,6 @@ alacritty_window=$(xdotool search --onlyvisible --classname alacritty | head -1)
 xdotool windowactivate "$alacritty_window"
 sleep 0.1
 xdotool key --clearmodifiers "ctrl+c"
-sleep 0.1
 xdotool key --clearmodifiers "ctrl+l"
-sleep 0.1
 xdotool type "voca"
 xdotool key --clearmodifiers "Return"

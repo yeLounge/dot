@@ -1,5 +1,6 @@
 [Added Associations]
 application/pdf=org.kde.okular.desktop;
+application/vnd.comicbook+zip=org.kde.okular.desktop;info.febvre.Komikku.desktop;
 application/x-subrip=nvim.desktop;
 audio/x-mpegurl=smplayer.desktop;
 text/markdown=nvim.desktop;
@@ -9,6 +10,7 @@ video/x-matroska=firefox.desktop;mpv.desktop;smplayer.desktop;
 
 [Default Applications]
 application/pdf=org.kde.okular.desktop;
+application/vnd.comicbook+zip=org.kde.okular.desktop;
 application/x-subrip=nvim.desktop;
 audio/x-mpegurl=smplayer.desktop;
 text/markdown=nvim.desktop;
