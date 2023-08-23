@@ -1,2 +1,3 @@
-#!/bin/sh
-sudo mount /dev/mmcblk0 /mnt/
+#!/bin/sh -e
+mount /dev/mmcblk0 /mnt/
+exit 0
