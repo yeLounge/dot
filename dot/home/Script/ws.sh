@@ -1,13 +1,12 @@
-pkill firefox &
-pkill alacritty &
+#!/bin/bash
+pkill firefox
+pkill alacritty 
 sleep 1
 
 i3-msg workspace 4
 sleep 0.1 
-i3-layout-manager ws4
-sleep 0.1 
 url3="https://chat.openai.com/c/9c2fe4f7-ae0a-4220-9bbf-1f5d17b3e9d8" 
-firefox "$url3"
+firefox "$url3" &
 sleep 2
 
 i3-msg workspace 6
@@ -33,7 +32,7 @@ sleep 0.1
 vlc /home/y0ung/Downloads/audio/Rain.mp3 &
 foobar2000 &
 ~/Applications/Todoist-linux-x86_64-*.AppImage &
-sleep 5 
+sleep 3
 
 i3-msg workspace 1
 sleep 0.1
@@ -66,8 +65,5 @@ xdotool mousemove 1065 287
 xdotool click 1
 sleep 0.1
 
-xdotool key --clearmodifiers "super"
-xdotool key --clearmodifiers "super"
-xdotool key --clearmodifiers "super"
-xdotool keyup --clearmodifiers "ctrl, alt, shift, super, l, return, a, v, c, p, g"
-xdotool keyup --clearmodifiers "ctrl, alt, shift, super, l, return, a, v, c, p"
+xdotool keyup --clearmodifiers "ctrl, alt, shift, super, l, return, a, v, c, p, s"
+exit
