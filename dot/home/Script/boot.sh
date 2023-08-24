@@ -1,7 +1,8 @@
-exec_always --no-startup-id pkill blueman-applet
-exec_always --no-startup-id ~/Script/blueboot.sh
-exec_always --no-startup-id ~/Script/day.sh
-exec_always --no-startup-id ~/Script/conftodot.sh
-exec_always --no-startup-id ~/Script/git.sh
-sleep 1 
-exec_always --no-startup-id ~/Script/ws.sh
+#!/bin/bash
+pkill blueman-applet
+./Script/blueboot.sh
+./Script/day.sh
+./Script/conftodot.sh
+./Script/git.sh
+sleep 0.1
+./Script/ws.sh
