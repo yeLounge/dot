@@ -7,7 +7,7 @@ i3-msg workspace 4
 sleep 0.1 
 url3="https://chat.openai.com/c/9c2fe4f7-ae0a-4220-9bbf-1f5d17b3e9d8" 
 firefox "$url3" &
-sleep 2
+sleep 3
 
 i3-msg workspace 6
 sleep 0.1 
@@ -23,7 +23,7 @@ alacritty &
 if ! xdotool search --name "Obsidian" windowactivate >/dev/null; then
   ~/Applications/Obsidian-*.AppImage &
 fi
-sleep 2
+sleep 3
 
 i3-msg workspace 5
 sleep 0.1
@@ -32,7 +32,7 @@ sleep 0.1
 vlc /home/y0ung/Downloads/audio/Rain.mp3 &
 foobar2000 &
 ~/Applications/Todoist-linux-x86_64-*.AppImage &
-sleep 3
+sleep 10 
 
 i3-msg workspace 1
 sleep 0.1
