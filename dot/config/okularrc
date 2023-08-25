@@ -20,26 +20,26 @@ State=AAAA/wAAAAD9AAAAAQAAAAAAAADmAAAC9fwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAG
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/The Legend of Zelda Legendary Editions/Original PDF Files/The Legend of Zelda Four Swords -Legendary Edition- by KBG.pdf
-File10[$e]=$HOME/Downloads/data/manga/Naruto/Chapter 195.cbz
-File2[$e]=$HOME/Downloads/The Legend of Zelda Legendary Editions/Original PDF Files/The Legend of Zelda Majora's Mask & A Link to the Past -Legendary Edition- by KBG.pdf
-File3[$e]=$HOME/Downloads/1. The Legend of Zelda Ocarina of Time.cbz
-File4[$e]=$HOME/Downloads/_local/pdf/Cyberpunk 2077/Cyberpunk 2077 - Trauma Team.cbr
-File5[$e]=$HOME/Downloads/pdf/book/Fiction/The Legend of Zelda/1. The Legend of Zelda Ocarina of Time .pdf
-File6[$e]=$HOME/Downloads/pdf/knou/7. 철학의이해/철학의이해.pdf
-File7[$e]=$HOME/Downloads/data/manga/Naruto/Chapter 1.cbz
-File8[$e]=$HOME/Downloads/data/manga/Fullmetal Alchemist/Chapter 1.cbz
-File9[$e]=$HOME/Downloads/data/manga/Death Note/Chapter 1.cbz
-Name1[$e]=The Legend of Zelda Four Swords -Legendary Edition- by KBG.pdf
-Name10[$e]=Chapter 195.cbz
-Name2[$e]=The Legend of Zelda Majora's Mask & A Link to the Past -Legendary Edition- by KBG.pdf
-Name3[$e]=1. The Legend of Zelda Ocarina of Time.cbz
-Name4[$e]=Cyberpunk 2077 - Trauma Team.cbr
-Name5[$e]=1. The Legend of Zelda Ocarina of Time .pdf
-Name6[$e]=철학의이해.pdf
-Name7[$e]=Chapter 1.cbz
-Name8[$e]=Chapter 1.cbz
-Name9[$e]=Chapter 1.cbz
+File1[$e]=$HOME/Downloads/pdf/book/Game Development/Creative Character Design for Games and Animation.pdf
+File10[$e]=$HOME/Downloads/pdf/book/Game Development/The WoW diary.pdf
+File2[$e]=$HOME/Downloads/pdf/book/Game Development/Game Development By Example.pdf
+File3[$e]=$HOME/Downloads/pdf/book/Game Development/Game Development Essentials.pdf
+File4[$e]=$HOME/Downloads/pdf/book/Game Development/Game Programming Algorithms and Techniques.pdf
+File5[$e]=$HOME/Downloads/pdf/book/Game Development/Game Programming Patterns.pdf
+File6[$e]=$HOME/Downloads/pdf/book/Game Development/Getting gamers.pdf
+File7[$e]=$HOME/Downloads/pdf/book/Game Development/Pixel Art for Game Developers.pdf
+File8[$e]=$HOME/Downloads/pdf/book/Game Development/Pixel Logic.pdf
+File9[$e]=$HOME/Downloads/pdf/book/Game Development/The game maker's apprentice.pdf
+Name1[$e]=Creative Character Design for Games and Animation.pdf
+Name10[$e]=The WoW diary.pdf
+Name2[$e]=Game Development By Example.pdf
+Name3[$e]=Game Development Essentials.pdf
+Name4[$e]=Game Programming Algorithms and Techniques.pdf
+Name5[$e]=Game Programming Patterns.pdf
+Name6[$e]=Getting gamers.pdf
+Name7[$e]=Pixel Art for Game Developers.pdf
+Name8[$e]=Pixel Logic.pdf
+Name9[$e]=The game maker's apprentice.pdf
 
 [Shortcut Schemes]
 Current Scheme=Default
