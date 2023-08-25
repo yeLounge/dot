@@ -1,4 +1,6 @@
 #!/bin/bash
+i3-msg workspace 4
+sleep 0.1
 url1="https://www.wendybook.com/search/result?term=viz&ord=8&page=1" 
 url2="https://www.littlemom.co.kr:8443/sub/01/srclist_book.html?cid=0&clsID=&listnum=30&pno=0&keyfield=brand&key=Viz&tkey=" 
 url3="https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Used&KeyWord=viz+box&KeyRecentPublish=0&OutStock=0&ViewType=Detail&CustReviewCount=0&CustReviewRank=0&KeyFullWord=viz+box&KeyLastWord=viz+box&CategorySearch=&chkKeyTitle=&chkKeyAuthor=&chkKeyPublisher=&chkKeyISBN=&chkKeyTag=&chkKeyTOC=&chkKeySubject=&SuggestKeyWord=" 
@@ -11,24 +13,24 @@ url9="https://ggulmo.com/search/products?text=%EB%82%98%EB%A3%A8%ED%86%A0"
 url10="https://searchn.11st.co.kr/pc/amazontab?kwd=fullmetal+alchemist+box+set&tabId=AMAZONTAB&pageNo=1" 
 url11="https://buy.11st.co.kr/cart/CartAction.tmall?method=getCartList&bcktType=01" 
 
-irefox "$url1" &
+firefox "$url1" &
 sleep 0.1
-irefox "$url2" &
+firefox "$url2" &
 sleep 0.1
-irefox "$url3" &
+firefox "$url3" &
 sleep 0.1
-irefox "$url4" &
+firefox "$url4" &
 sleep 0.1
-irefox "$url5" &
+firefox "$url5" &
 sleep 0.1
-irefox "$url6" &
+firefox "$url6" &
 sleep 0.1
-irefox "$url7" &
+firefox "$url7" &
 sleep 0.1
-irefox "$url8" &
+firefox "$url8" &
 sleep 0.1
-irefox "$url9" &
+firefox "$url9" &
 sleep 0.1
-irefox "$url10" &
+firefox "$url10" &
 sleep 0.1
-irefox "$url11" &
+firefox "$url11" &
