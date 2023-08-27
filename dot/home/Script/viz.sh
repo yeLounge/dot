@@ -10,6 +10,7 @@ url5="https://ggulmo.com/search/products?text=%EC%98%81%EC%96%B4+%EB%A7%8C%ED%99
 url6="https://ggulmo.com/search/products?text=%EC%98%81%EB%AC%B8+%EB%A7%8C%ED%99%94" 
 url7="https://www.wendybook.com/search/result?term=viz&ord=8&page=1" 
 url8="https://www.littlemom.co.kr:8443/sub/01/srclist_book.html?keyfield=brand&key=viz" 
+url9="https://ggulmo.com/search/products?text=%EB%A7%A5%EB%B6%81&high_price=800000&sale_status=sale&regions=%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C&distance=10" 
 
 firefox "$url1" &
 sleep 0.1
@@ -26,3 +27,5 @@ sleep 0.1
 firefox "$url7" &
 sleep 0.1
 firefox "$url8" &
+sleep 0.1
+firefox "$url9" &
