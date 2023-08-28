@@ -21,9 +21,6 @@ ShellOpenFileInTabs=true
 ShowEmbeddedContentMessages=false
 ShowOSD=false
 
-[Main View]
-ShowBottomBar=true
-
 [Nav Panel]
 SyncThumbnailsViewport=false
 

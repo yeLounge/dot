@@ -1,8 +1,10 @@
 [Added Associations]
 application/pdf=org.kde.okular.desktop;
 application/vnd.comicbook+zip=org.kde.okular.desktop;info.febvre.Komikku.desktop;
+application/x-hwp=firefox.desktop;
 application/x-subrip=nvim.desktop;
 audio/x-mpegurl=smplayer.desktop;
+image/png=org.kde.okular.desktop;
 text/markdown=nvim.desktop;
 text/plain=nvim.desktop;
 video/mp4=mpv.desktop;smplayer.desktop;
@@ -11,8 +13,10 @@ video/x-matroska=firefox.desktop;mpv.desktop;smplayer.desktop;
 [Default Applications]
 application/pdf=org.kde.okular.desktop;
 application/vnd.comicbook+zip=org.kde.okular.desktop;
+application/x-hwp=firefox.desktop;
 application/x-subrip=nvim.desktop;
 audio/x-mpegurl=smplayer.desktop;
+image/png=org.kde.okular.desktop;
 text/markdown=nvim.desktop;
 text/plain=nvim.desktop;
 video/mkv=smplayer.desktop;

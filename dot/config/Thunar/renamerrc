@@ -2,12 +2,6 @@
 LastActiveMode=THUNAR_RENAMER_MODE_NAME
 LastActiveRenamer=ThunarSbrInsertRenamer
 
-[ThunarSbrReplaceRenamer]
-CaseSensitive=FALSE
-Replacement=
-Pattern=\ -Legendary Edition- by KBG
-Regexp=FALSE
-
 [ThunarSbrNumberRenamer]
 TextMode=THUNAR_SBR_TEXT_MODE_NTO
 Text=.\ 
@@ -20,9 +14,15 @@ EndOffset=88
 EndOffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
 StartOffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
 
+[ThunarSbrReplaceRenamer]
+CaseSensitive=FALSE
+Replacement=
+Pattern=\ 출수
+Regexp=FALSE
+
 [ThunarSbrInsertRenamer]
-Offset=2
-Text=. Fullmetal Alchemist : Brotherhood
+Offset=0
+Text=(출수)\ 
 Mode=THUNAR_SBR_INSERT_MODE_INSERT
 OffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
 

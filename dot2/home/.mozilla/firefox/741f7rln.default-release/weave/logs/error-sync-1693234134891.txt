@@ -1,0 +1,125 @@
+1693216034319	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1693216034327	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1693216034327	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1693216037197	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693216037643	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693216303764	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1693216303764	Sync.Service	DEBUG	User-Agent: Firefox/116.0 (Linux x86_64) FxSync/1.118.0.20230731163847.desktop
+1693216303765	Sync.Service	INFO	Starting sync at 2023-08-28 18:51:43 in browser session OTGEmT5X95tN
+1693216303765	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1693216303783	Sync.Status	INFO	Resetting Status.
+1693216303783	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1693216303784	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1693216303784	FirefoxAccounts	DEBUG	getOAuthToken enter
+1693216303786	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1693216303786	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1693216303788	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1693234127833	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1693234127834	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1693234127850	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1693234127854	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1693234128514	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1693234128514	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1693234128523	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1693234128524	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1693234130003	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1693234130017	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693234130058	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693234130172	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1693234130189	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693234130318	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1693234130337	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693234130453	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1693234130477	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693234130717	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693234131093	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693234131128	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693234132956	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693234133167	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693234133231	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/198465042/info/collections
+1693234133231	Sync.Service	DEBUG	Fetching global metadata record
+1693234133231	Sync.Service	DEBUG	Weave Version: 1.118.0 Local Storage: 5 Remote Storage: 5
+1693234133231	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1693234133231	Sync.Service	INFO	Testing info/collections: {"crypto":1658989889.28,"history":1693216034.13,"forms":1693216033.72,"tabs":1693216033.29,"prefs":1693047292.22,"passwords":1693065250.57,"extension-storage":1693202595.36,"clients":1693159101.88,"meta":1658989899.03,"bookmarks":1693194157.45,"addons":1693216033.52}
+1693234133231	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1658989889.28
+1693234133232	Sync.Synchronizer	INFO	Updating enabled engines: 1 clients.
+1693234133233	Sync.Synchronizer	INFO	Syncing specified engines: ["tabs"]
+1693234133267	Sync.Engine.Tabs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1693234133270	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1693234133291	Sync.Engine.Tabs	INFO	Posting 1 records of 1131 bytes with batch=true
+1693234133292	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1693234133293	Sync.SyncAuthManager	INFO	Getting sync key
+1693234133293	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1693234133293	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1693234133293	FirefoxAccounts	DEBUG	getOAuthToken enter
+1693234133293	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1693234133293	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1693234133294	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1693234133294	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1693234133379	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693234133750	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 401
+1693234133750	Services.Common.TokenServerClient	DEBUG	Got token response: 401
+1693234133750	Services.Common.TokenServerClient	INFO	Server-reported error: {"location":"body","name":"","description":"Unauthorized"}
+1693234133750	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/oauth/destroy
+1693234133750	Services.Common.RESTRequest	DEBUG	POST Length: 969
+1693234133751	FirefoxAccounts	DEBUG	_updateAccountData with items: ["oauthTokens"]
+1693234133751	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","device","oauthTokens","encryptedSendTabKeys","profileCache"]
+1693234133751	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","device","oauthTokens","encryptedSendTabKeys","profileCache"]
+1693234133752	Sync.SyncAuthManager	WARN	Token server returned 401, retrying token fetch with fresh credentials
+1693234133752	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1693234133752	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1693234133752	FirefoxAccounts	DEBUG	getOAuthToken enter
+1693234133753	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1693234133753	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1693234133757	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1693234133759	Sync.Service	DEBUG	User-Agent: Firefox/116.0 (Linux x86_64) FxSync/1.118.0.20230731163847.desktop
+1693234133760	Sync.Service	INFO	Starting sync at 2023-08-28 23:48:53 in browser session OTGEmT5X95tN
+1693234133760	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:45:5) JS Stack trace: LockException@util.sys.mjs:45:5
+throwLockException@util.sys.mjs:129:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1370:6
+sync/<@service.sys.mjs:1335:18
+WrappedCatch@util.sys.mjs:114:27
+sync@service.sys.mjs:1336:7
+1693234133760	Sync.Service	INFO	Cannot start sync: already syncing?
+1693234133761	FirefoxAccounts	TRACE	finished write of json user data - took: 10
+1693234133762	FirefoxAccounts	DEBUG	writing secure storage: ["scopedKeys","kSync","kXCS"]
+1693234133762	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1693234133765	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1693234133766	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/oauth/token
+1693234133766	Services.Common.RESTRequest	DEBUG	POST Length: 127
+1693234133931	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693234134007	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1693234134035	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693234134150	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693234134511	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/oauth/destroy 200
+1693234134511	Hawk	DEBUG	(Response) /oauth/destroy: code: 200 - Status text: OK
+1693234134512	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -512
+1693234134516	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/oauth/token 200
+1693234134516	Hawk	DEBUG	(Response) /oauth/token: code: 200 - Status text: OK
+1693234134516	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -516
+1693234134516	FirefoxAccounts	DEBUG	_updateAccountData with items: ["oauthTokens"]
+1693234134516	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","device","oauthTokens","encryptedSendTabKeys","profileCache"]
+1693234134516	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","device","oauthTokens","encryptedSendTabKeys","profileCache"]
+1693234134517	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1693234134517	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1693234134520	FirefoxAccounts	TRACE	finished write of json user data - took: 4
+1693234134520	FirefoxAccounts	DEBUG	writing secure storage: ["scopedKeys","kSync","kXCS"]
+1693234134520	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1693234134525	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1693234134658	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 200
+1693234134659	Services.Common.TokenServerClient	DEBUG	Got token response: 200
+1693234134659	Services.Common.TokenServerClient	DEBUG	Successful token response
+1693234134659	Sync.Status	DEBUG	Status.login: success.login => success.login
+1693234134659	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1693234134672	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1693234134684	Sync.Collection	DEBUG	POST Length: 1131
+1693234134872	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/198465042/storage/tabs?batch=true&commit=true
+1693234134883	Sync.Status	DEBUG	Status.sync: success.sync => success.sync
+1693234134883	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1693234134885	Sync.Synchronizer	INFO	Sync completed at 2023-08-28 23:48:54 after 17831.10 secs.
+1693234134885	Sync.Declined	DEBUG	Handling remote declined: []
+1693234134885	Sync.Declined	DEBUG	Handling local declined: []
+1693234134885	Sync.Declined	DEBUG	Declined changed? false
+1693234134885	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1693234134886	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
