@@ -6,4 +6,3 @@ xdotool key --clearmodifiers "escape"
 xdotool key --clearmodifiers "escape"
 xdotool key --clearmodifiers "super+p"
 xdotool keyup --clearmodifiers "ctrl, alt, shift, super, l, return, a, v, c, j, p"
-
