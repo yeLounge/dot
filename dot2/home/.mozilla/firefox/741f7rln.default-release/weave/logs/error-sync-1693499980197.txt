@@ -1,0 +1,57 @@
+1693499089211	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1693499127119	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499128421	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499134709	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499135726	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499148968	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499150405	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499162053	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499163413	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499177540	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499192728	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499193871	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499197677	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499199163	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499209981	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499211238	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499414226	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499415474	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499740905	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499744350	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1693499746125	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1693499746125	Sync.Service	DEBUG	User-Agent: Firefox/116.0 (Linux x86_64) FxSync/1.118.0.20230731163847.desktop
+1693499746125	Sync.Service	INFO	Starting sync at 2023-09-01 01:35:46 in browser session HJRyhLpXOx0I
+1693499746125	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1693499746131	Sync.Status	INFO	Resetting Status.
+1693499746131	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1693499746132	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1693499746132	FirefoxAccounts	DEBUG	getOAuthToken enter
+1693499746133	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1693499746133	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1693499746134	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1693499971847	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1693499971848	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1693499971861	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1693499971862	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1693499973053	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1693499973054	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1693499973060	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1693499973060	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1693499977937	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1693499977937	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1693499977942	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1693499977944	Sync.Service	DEBUG	User-Agent: Firefox/116.0 (Linux x86_64) FxSync/1.118.0.20230731163847.desktop
+1693499977944	Sync.Service	INFO	Starting sync at 2023-09-01 01:39:37 in browser session HJRyhLpXOx0I
+1693499977944	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:45:5) JS Stack trace: LockException@util.sys.mjs:45:5
+throwLockException@util.sys.mjs:129:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1370:6
+sync/<@service.sys.mjs:1335:18
+WrappedCatch@util.sys.mjs:114:27
+sync@service.sys.mjs:1336:7
+1693499977945	Sync.Service	INFO	Cannot start sync: already syncing?
+1693499979267	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1693499980185	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/198465042/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1693499980186	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1693499980188	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1693499980196	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
