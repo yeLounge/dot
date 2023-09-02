@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the maximum number of loop iterations
-max_iterations=540
+max_iterations=350
 
 # Set a variable to track whether to continue or stop the loop
 continue_loop=true

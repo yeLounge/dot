@@ -139,7 +139,7 @@ bindsym $mod+shift+F4 exec reboot
 bindsym $mod+F1 exec ~/Script/ws.sh
 bindsym $mod+n [class="vlc"] focus
 bindsym $mod+i [class="Todoist"] focus
-bindsym $mod+k [class="obsidian"] focus
+# bindsym $mod+k [class="obsidian"] focus
 bindsym $mod+j exec ~/Script/game.sh
 bindsym $mod+m exec ~/Script/foobar.sh
 bindsym $mod+o [class="okular"] focus
@@ -160,6 +160,6 @@ bindsym $mod+F10 exec ~/Script/ws5.sh
 bindsym $mod+F12 exec ~/Script/blue.sh
 bindsym $mod+slash exec ~/Script/gpt.sh
 bindsym --release XF86Tools exec ~/Script/voca.sh
-# bindsym $mod+j exec ~/Script/pdftable.sh
+bindsym $mod+k exec ~/Script/pdftable.sh
 bindsym --release XF86Launch5 exec ~/Script/voca2.sh
 
