@@ -5,41 +5,41 @@ shouldShowToolBarComingFromFullScreen=false
 
 [General]
 LockSidebar=true
-ShowSidebar=true
+ShowSidebar=false
 
 [MainWindow]
 1364x767 screen: Height=757
 1364x767 screen: Width=1354
-1364x767 screen: XPosition=5
+1364x767 screen: XPosition=684
 1364x767 screen: YPosition=5
 768x1366 screen: Height=1356
 768x1366 screen: Width=758
 LVDS-1=LVDS-1
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAQAAAAAAAADmAAAC9fwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgEAAAAAAAAC9QAAANwA///+AAAEXgAAAvUAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAQAAAAAAAADmAAAC9fwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgAAAAAAAAAC9QAAANwA///+AAAFSgAAAvUAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/pdf/knou/과제물/철학의이해 과제물.pdf
-File10[$e]=$HOME/Downloads/output.pdf
-File2[$e]=$HOME/Downloads/pdf/knou/1. C++프로그래밍/C++프로그래밍.pdf
-File3[$e]=$HOME/Pictures/screenshot_20230829_000236.png
-File4[$e]=$HOME/Pictures/screenshot_20230829_000220.png
-File5[$e]=$HOME/Pictures/screenshot_20230829_000203.png
-File6[$e]=$HOME/Downloads/pdf/knou/중간평가/자료구조 출수.png
-File7[$e]=$HOME/Downloads/document.pdf
-File8[$e]=$HOME/Downloads/Combined_2023-09-03_00-35-41.pdf
-File9[$e]=$HOME/Downloads/pdf.pdf
-Name1[$e]=철학의이해 과제물.pdf
-Name10[$e]=output.pdf
-Name2[$e]=C++프로그래밍.pdf
-Name3[$e]=screenshot_20230829_000236.png
-Name4[$e]=screenshot_20230829_000220.png
-Name5[$e]=screenshot_20230829_000203.png
-Name6[$e]=자료구조 출수.png
-Name7[$e]=document.pdf
-Name8[$e]=Combined_2023-09-03_00-35-41.pdf
-Name9[$e]=pdf.pdf
+File1[$e]=$HOME/Pictures/screenshot_20230829_000220.png
+File10[$e]=$HOME/Downloads/pdf/knou/중간평가/(과제물) UNIX.pdf
+File2[$e]=$HOME/Pictures/screenshot_20230829_000203.png
+File3[$e]=$HOME/Downloads/pdf/knou/중간평가/자료구조 출수.png
+File4[$e]=$HOME/Downloads/document.pdf
+File5[$e]=$HOME/Downloads/Combined_2023-09-03_00-35-41.pdf
+File6[$e]=$HOME/Downloads/pdf.pdf
+File7[$e]=$HOME/Downloads/output.pdf
+File8[$e]=$HOME/Downloads/pdf/book/Game Development/Pixel Logic.pdf
+File9[$e]=$HOME/Downloads/pdf/book/Undertale Art Book.pdf
+Name1[$e]=screenshot_20230829_000220.png
+Name10[$e]=(과제물) UNIX.pdf
+Name2[$e]=screenshot_20230829_000203.png
+Name3[$e]=자료구조 출수.png
+Name4[$e]=document.pdf
+Name5[$e]=Combined_2023-09-03_00-35-41.pdf
+Name6[$e]=pdf.pdf
+Name7[$e]=output.pdf
+Name8[$e]=Pixel Logic.pdf
+Name9[$e]=Undertale Art Book.pdf
 
 [Shortcut Schemes]
 Current Scheme=Default

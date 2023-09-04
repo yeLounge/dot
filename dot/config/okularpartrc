@@ -21,9 +21,6 @@ ShellOpenFileInTabs=true
 ShowEmbeddedContentMessages=false
 ShowOSD=false
 
-[Main View]
-ShowBottomBar=true
-
 [Nav Panel]
 SyncThumbnailsViewport=false
 
@@ -37,4 +34,4 @@ ViewColumns=1
 
 [Reviews]
 DrawingTools=
-QuickAnnotationTools=<tool id="1" type="rectangle"><engine block="true" type="PickPoint" color="#ffe5ff00"><annotation width="5" innerColor="#e5ff00" type="GeomSquare" color="#ffe5ff00"/></engine><shortcut>1</shortcut></tool>
+QuickAnnotationTools=<tool id="1" type="straight-line"><engine color="#ffeaff00" type="PolyLine" points="2"><annotation width="5" color="#ffeaff00" startStyle="5" endStyle="5" opacity="0.5" type="Line"/></engine><shortcut>1</shortcut></tool>,<tool id="2" type="rectangle"><engine color="#ffe5ff00" block="true" type="PickPoint"><annotation innerColor="#e5ff00" width="5" color="#ffe5ff00" type="GeomSquare"/></engine><shortcut>2</shortcut></tool>
