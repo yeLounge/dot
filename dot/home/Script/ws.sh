@@ -39,6 +39,8 @@ sleep 0.1
 xdotool mousemove 762 316
 xdotool click 1
 sleep 0.1
+xdotool key --clearmodifiers "Escape"
+xdotool key --clearmodifiers "Escape"
 xdotool key --clearmodifiers "G"
 sleep 0.1
 

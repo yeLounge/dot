@@ -5,6 +5,8 @@ xdotool mousemove 952 371
 sleep 0.1
 xdotool click 1
 sleep 0.1
+xdotool key --clearmodifiers "Escape"
+xdotool key --clearmodifiers "Escape"
 xdotool key --clearmodifiers "G"
 xdotool key --clearmodifiers semicolon
 xdotool key --clearmodifiers apostrophe
