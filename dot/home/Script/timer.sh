@@ -32,6 +32,7 @@ function notify_and_ring() {
     sleep 0.1
     xdotool key --clearmodifiers "Escape"
     xdotool key --clearmodifiers "Escape"
+    sleep 0.1
     xdotool key --clearmodifiers "G"
     xdotool key --clearmodifiers semicolon
     xdotool key --clearmodifiers apostrophe
