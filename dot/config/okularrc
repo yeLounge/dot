@@ -20,26 +20,26 @@ State=AAAA/wAAAAD9AAAAAQAAAAAAAADmAAAC9fwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAG
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/document.pdf
-File10[$e]=$HOME/Downloads/pdf/knou/중간평가/(과제물) 인간과사회.png
-File2[$e]=$HOME/Downloads/Combined_2023-09-03_00-35-41.pdf
-File3[$e]=$HOME/Downloads/pdf.pdf
-File4[$e]=$HOME/Downloads/output.pdf
-File5[$e]=$HOME/Downloads/pdf/book/Game Development/Pixel Logic.pdf
-File6[$e]=$HOME/Downloads/pdf/book/Undertale Art Book.pdf
-File7[$e]=$HOME/Downloads/pdf/knou/중간평가/(과제물) UNIX.pdf
-File8[$e]=$HOME/Downloads/pdf/knou/중간평가/(과제물) 인간과과학.pdf
-File9[$e]=$HOME/Downloads/pdf/knou/중간평가/(과제물) 철학의이해.pdf
-Name1[$e]=document.pdf
-Name10[$e]=(과제물) 인간과사회.png
-Name2[$e]=Combined_2023-09-03_00-35-41.pdf
-Name3[$e]=pdf.pdf
-Name4[$e]=output.pdf
-Name5[$e]=Pixel Logic.pdf
-Name6[$e]=Undertale Art Book.pdf
-Name7[$e]=(과제물) UNIX.pdf
-Name8[$e]=(과제물) 인간과과학.pdf
-Name9[$e]=(과제물) 철학의이해.pdf
+File1[$e]=$HOME/Downloads/Combined_2023-09-03_00-35-41.pdf
+File10[$e]=/mnt/sdcard/files/Cyberpunk 2077/Cyberpunk 2077 - Big City Dreams.cbr
+File2[$e]=$HOME/Downloads/pdf.pdf
+File3[$e]=$HOME/Downloads/output.pdf
+File4[$e]=$HOME/Downloads/pdf/book/Game Development/Pixel Logic.pdf
+File5[$e]=$HOME/Downloads/pdf/book/Undertale Art Book.pdf
+File6[$e]=$HOME/Downloads/pdf/knou/중간평가/(과제물) UNIX.pdf
+File7[$e]=$HOME/Downloads/pdf/knou/중간평가/(과제물) 인간과과학.pdf
+File8[$e]=$HOME/Downloads/pdf/knou/중간평가/(과제물) 철학의이해.pdf
+File9[$e]=$HOME/Downloads/pdf/knou/중간평가/(과제물) 인간과사회.png
+Name1[$e]=Combined_2023-09-03_00-35-41.pdf
+Name10[$e]=Cyberpunk 2077 - Big City Dreams.cbr
+Name2[$e]=pdf.pdf
+Name3[$e]=output.pdf
+Name4[$e]=Pixel Logic.pdf
+Name5[$e]=Undertale Art Book.pdf
+Name6[$e]=(과제물) UNIX.pdf
+Name7[$e]=(과제물) 인간과과학.pdf
+Name8[$e]=(과제물) 철학의이해.pdf
+Name9[$e]=(과제물) 인간과사회.png
 
 [Shortcut Schemes]
 Current Scheme=Default

@@ -1,3 +1,3 @@
 #!/bin/bash
 i3-msg workspace 2
-dolphin ~/Downloads/
+dolphin /mnt/sdcard/files/ 
