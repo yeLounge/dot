@@ -1,0 +1,101 @@
+1694195194234	Sync.LogManager	DEBUG	Flushing file log
+1694195194238	Sync.LogManager	DEBUG	Log cleanup threshold time: 1693331194238
+1694195194246	Sync.LogManager	DEBUG	Done deleting files.
+1694195197062	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195198820	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195202730	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195209278	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195209460	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195209875	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694195209875	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694195209876	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694195209876	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694195210128	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1694195210141	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195210218	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195210353	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195211715	Sync.AddonsReconciler	DEBUG	Add-on change: onDisabled to {dd3d7613-0246-469d-bc65-2a3cc1668adc}
+1694195211716	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Block Site (version=4.0.8.2, id={dd3d7613-0246-469d-bc65-2a3cc1668adc})
+1694195211716	Sync.AddonsReconciler	DEBUG	Adding change because enabled state changed: {dd3d7613-0246-469d-bc65-2a3cc1668adc}
+1694195211716	Sync.AddonsReconciler	INFO	Change recorded for {dd3d7613-0246-469d-bc65-2a3cc1668adc}
+1694195211716	Sync.Engine.Addons.Tracker	DEBUG	changeListener invoked: 4 {dd3d7613-0246-469d-bc65-2a3cc1668adc}
+1694195211719	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1694195212994	Sync.AddonsReconciler	DEBUG	Add-on change: onDisabled to {58204f8b-01c2-4bbc-98f8-9a90458fd9ef}
+1694195212994	Sync.AddonsReconciler	DEBUG	Rectifying state for addon BlockTube (version=0.3.38, id={58204f8b-01c2-4bbc-98f8-9a90458fd9ef})
+1694195212994	Sync.AddonsReconciler	DEBUG	Adding change because enabled state changed: {58204f8b-01c2-4bbc-98f8-9a90458fd9ef}
+1694195212994	Sync.AddonsReconciler	INFO	Change recorded for {58204f8b-01c2-4bbc-98f8-9a90458fd9ef}
+1694195212994	Sync.Engine.Addons.Tracker	DEBUG	changeListener invoked: 4 {58204f8b-01c2-4bbc-98f8-9a90458fd9ef}
+1694195212999	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1694195216283	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195218323	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195219474	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195222652	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195223211	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1694195223220	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195223273	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195224413	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195224569	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195224893	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694195224893	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694195224894	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694195224894	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694195225615	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1694195225630	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195225734	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195225873	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195226816	Sync.AddonsReconciler	DEBUG	Add-on change: onDisabled to {54e2eb33-18eb-46ad-a4e4-1329c29f6e17}
+1694195226816	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Block Site (version=0.4.9, id={54e2eb33-18eb-46ad-a4e4-1329c29f6e17})
+1694195226817	Sync.AddonsReconciler	DEBUG	Adding change because enabled state changed: {54e2eb33-18eb-46ad-a4e4-1329c29f6e17}
+1694195226817	Sync.AddonsReconciler	INFO	Change recorded for {54e2eb33-18eb-46ad-a4e4-1329c29f6e17}
+1694195226817	Sync.Engine.Addons.Tracker	DEBUG	changeListener invoked: 4 {54e2eb33-18eb-46ad-a4e4-1329c29f6e17}
+1694195226819	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1694195227212	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195229367	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195243774	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195243784	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195248538	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694195251344	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694197584625	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694197584720	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1694198275676	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1694198275676	Sync.Service	DEBUG	User-Agent: Firefox/116.0 (Linux x86_64) FxSync/1.118.0.20230731163847.desktop
+1694198275677	Sync.Service	INFO	Starting sync at 2023-09-09 03:37:55 in browser session t3ZUevkMEdiq
+1694198275678	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1694198275688	Sync.Status	INFO	Resetting Status.
+1694198275688	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1694198275689	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1694198275689	FirefoxAccounts	DEBUG	getOAuthToken enter
+1694198275691	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1694198275691	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1694198275692	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1694198275694	Sync.SyncAuthManager	INFO	Getting sync key
+1694198275694	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1694198275695	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1694198275695	FirefoxAccounts	DEBUG	getOAuthToken enter
+1694198275695	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1694198275695	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1694198275696	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1694198275696	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1694198371834	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1694198371834	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1694198371849	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1694198371851	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1694198372279	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1694198372281	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1694198374846	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1694198374847	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1694198374853	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1694198374853	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1694198374854	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1694198374854	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1694198374855	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1694198374857	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694198374861	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/198465042/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1694198374861	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1694198374861	Sync.Status	DEBUG	Status.service: error.login.failed => error.sync.failed
+1694198374862	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1694198374863	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1694198374864	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1694198374871	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
