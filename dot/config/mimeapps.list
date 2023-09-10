@@ -22,3 +22,4 @@ text/plain=nvim.desktop;
 video/mkv=smplayer.desktop;
 video/mp4=smplayer.desktop;
 video/x-matroska=smplayer.desktop;
+x-scheme-handler/discord-460807638964371468=discord-460807638964371468.desktop
