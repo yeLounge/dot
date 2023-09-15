@@ -90,6 +90,7 @@ exec_always --no-startup-id unclutter
 exec_always --no-startup-id syncthing
 exec_always --no-startup-id xset r rate 250 15 
 exec_always --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Natural Scrolling Enabled" 1
+exec_always --no-startup-id xinput set-prop "MX Anywhere 3 Mac Mouse" "libinput Natural Scrolling Enabled" 1
 exec_always --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Disable While Typing Enabled" 0
 exec_always --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Accel Speed" 1
 exec_always --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Scrolling Pixel Distance" 10
@@ -160,4 +161,5 @@ bindsym $mod+slash exec ~/Script/gpt.sh
 bindsym --release XF86Tools exec ~/Script/voca.sh
 bindsym $mod+k exec ~/Script/pdftable.sh
 bindsym --release XF86Launch5 exec ~/Script/voca2.sh
+
 
