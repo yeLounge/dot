@@ -472,7 +472,7 @@ services.sheerid.com:HSTS	0	19562	1753273215485,1,1
 blog.medibloc.org^partitionKey=%28http%2Cmedibloc.org%29:HSTS	0	19555	1721106953965,1,0
 pay.ebay.com^partitionKey=%28https%2Cebay.com%29	0	19581	1723339094672,1,0
 myself.coupang.com	0	19599	1724950942621,1,0
-fonts.googleapis.com	37	19616	1726380253254,1,0
+fonts.googleapis.com	38	19621	1726380253254,1,0
 replicate.com^partitionKey=%28https%2Creplicate.com%29	0	19607	1709671066872,1,0
 assets.prod.abebookscdn.com	16	19607	1741530297143,1,0
 www.gov.kr^partitionKey=%28https%2Cgov.kr%29	0	19577	1707289305577,1,0
