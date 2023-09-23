@@ -1,3 +1,0 @@
-{"timestamp":699129,"category":"nimbus_events","name":"enrollment","extra":{"branch":"control","enrollment_id":"525c6c60-7634-48d5-9b7f-c851480a3b03","experiment":"abouthome-startup-cache-rollout","experiment_type":"rollout"}}
-{"timestamp":699185,"category":"nimbus_events","name":"enrollment","extra":{"experiment":"firefox-accounts-toolbar-button-badge","branch":"control","experiment_type":"rollout","enrollment_id":"ee461c07-f9f4-4d6b-918d-d2df77d4547d"}}
-{"timestamp":699217,"category":"nimbus_events","name":"enrollment","extra":{"enrollment_id":"764d15a7-12ef-49d2-a9da-435b3c8a8148","branch":"treatment-a","experiment":"next-generation-accessibility-engine-powering-screen-readers","experiment_type":"rollout"}}
