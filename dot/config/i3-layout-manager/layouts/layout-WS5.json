@@ -1,0 +1,133 @@
+[
+{
+	"border": "normal",
+		"floating": "auto_off",
+		"fullscreen_mode": 0,
+		"layout": "splith",
+		"marks": [],
+		"percent": null,
+		"type": "con",
+		"nodes": [
+		{
+			"border": "normal",
+			"floating": "auto_off",
+			"layout": "splith",
+			"marks": [],
+			"percent": 1,
+			"type": "con",
+			"nodes": [
+			{
+				"border": "normal",
+				"floating": "auto_off",
+				"layout": "splith",
+				"marks": [],
+				"percent": 1,
+				"type": "con",
+				"nodes": [
+				{
+					"border": "normal",
+					"floating": "auto_off",
+					"layout": "splith",
+					"marks": [],
+					"percent": 0.751685393258427,
+					"type": "con",
+					"nodes": [
+					{
+						"border": "pixel",
+						"current_border_width": 0,
+						"floating": "auto_off",
+						"geometry": {
+							"height": 377,
+							"width": 335,
+							"x": 1026,
+							"y": 386
+						},
+						"marks": [],
+						"name": "Today: Todoist",
+						"percent": 1,
+						"swallows": [
+						{
+							"instance": "^todoist$"
+						}
+						],
+						"type": "con"
+					}
+					]
+				},
+				{
+					"border": "normal",
+					"floating": "auto_off",
+					"layout": "splitv",
+					"marks": [],
+					"percent": 0.248314606741573,
+					"type": "con",
+					"nodes": [
+					{
+						"border": "normal",
+						"floating": "auto_off",
+						"layout": "splith",
+						"marks": [],
+						"percent": 0.25,
+						"type": "con",
+						"nodes": [
+						{
+							"border": "pixel",
+							"current_border_width": 0,
+							"floating": "auto_off",
+							"geometry": {
+								"height": 758,
+								"width": 1356,
+								"x": 5,
+								"y": 20
+							},
+							"marks": [],
+							"name": "Rain.mp3 - VLC media player",
+							"percent": 1,
+							"swallows": [
+							{
+								"instance": "^vlc$"
+							}
+							],
+							"type": "con"
+						}
+						]
+					},
+					{
+						"border": "normal",
+						"floating": "auto_off",
+						"layout": "splitv",
+						"marks": [],
+						"percent": 0.75,
+						"type": "con",
+						"nodes": [
+						{
+							"border": "pixel",
+							"current_border_width": 0,
+							"floating": "auto_off",
+							"geometry": {
+								"height": 356,
+								"width": 335,
+								"x": 1026,
+								"y": 386
+							},
+							"marks": [],
+							"name": "foobar2000 v2.0",
+							"percent": 1,
+							"swallows": [
+							{
+								"instance": "^foobar2000.exe$"
+							}
+							],
+							"type": "con"
+						}
+						]
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+}
+]
